@@ -124,13 +124,13 @@ body,
 }
 body {
   background: #eee;
-  font: 14px -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  font: 16px -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
   -webkit-text-size-adjust: 100%;
 }
 .outer {
-  max-width: 1220px;
+  max-width: 820px;
   margin: 0 auto;
-  padding: 0 20px;
+  padding: 0 10px;
 }
 .outer:before,
 .outer:after {
@@ -143,8 +143,8 @@ body {
 .inner {
   display: inline;
   float: left;
-  width: 98.33333333333333%;
-  margin: 0 0.833333333333333%;
+  width: 98.76543209876543%;
+  margin: 0 0.617283950617284%;
 }
 .left,
 .alignleft {
@@ -179,18 +179,9 @@ body {
 .mobile-nav-on #wrap {
   left: 280px;
 }
-@media screen and (min-width: 768px) {
-  #main {
-    display: inline;
-    float: left;
-    width: 73.33333333333333%;
-    margin: 0 0.833333333333333%;
-  }
-}
 .article-date,
 .article-category-link,
-.archive-year,
-.widget-title {
+.archive-year {
   text-decoration: none;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -308,7 +299,7 @@ body {
   font-weight: bold;
 }
 #header {
-  height: 150px;
+  height: 200px;
   position: relative;
   border-bottom: 1px solid #ddd;
 }
@@ -348,7 +339,7 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background: center #59b9c6;
+  background: center #239fff;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -407,9 +398,9 @@ body {
 .nav-icon {
   font-family: FontAwesome;
   text-align: center;
-  font-size: 14px;
-  width: 14px;
-  height: 14px;
+  font-size: 16px;
+  width: 16px;
+  height: 16px;
   padding: 20px 15px;
   position: relative;
   cursor: pointer;
@@ -629,7 +620,7 @@ a.article-title:hover {
   text-align: center;
 }
 .article-entry blockquote footer {
-  font-size: 14px;
+  font-size: 16px;
   margin: 1.6em 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
 }
@@ -1039,18 +1030,54 @@ blockquote cite {
 .article-entry h2 {
   position: relative;
   color: #fff;
-  background: #81d0cb;
-  line-height: 1.4;
+  background: #239fff;
+  line-height: 1.2;
   padding: 0.5em 0.5em 0.5em 1em;
 }
 .article-entry h2 .header-anchor {
   display: none;
 }
 .article-entry h3 {
-  border-bottom: solid 3px #81d0cb;
+  border-bottom: solid 3px #239fff;
 }
 .article-entry h3 .header-anchor {
   display: none;
+}
+.article-entry strong {
+  background: rgba(0,0,0,0) -webkit-linear-gradient(transparent 60%, #ffffbc 0%) repeat scroll 0 0;
+  background: rgba(0,0,0,0) -moz-linear-gradient(transparent 60%, #ffffbc 0%) repeat scroll 0 0;
+  background: rgba(0,0,0,0) -ms-linear-gradient(transparent 60%, #ffffbc 0%) repeat scroll 0 0;
+  background: rgba(0,0,0,0) linear-gradient(transparent 60%, #ffffbc 0%) repeat scroll 0 0;
+}
+.toc {
+  background: #f9f9f9 none repeat scroll 0 0;
+  border: 1px solid #aaa;
+  display: table;
+  font-size: 95%;
+  margin-bottom: 1em;
+  margin-left: 1em;
+  padding: 10px;
+  width: auto;
+}
+.toc:before {
+  font-weight: 700;
+  text-align: center;
+  content: "目次";
+}
+.toc_title {
+  font-weight: 700;
+  text-align: center;
+}
+.toc li,
+.toc ul,
+.toc ul li {
+  list-style-position: outside;
+  margin-left: 1em;
+  margin-right: 1em;
+  padding-left: 0;
+/* リストの記号を付けない場合は   
+     list-style: outside none none !important;
+    */
 }
 #comments {
   background: #fff;
@@ -1212,7 +1239,7 @@ blockquote cite {
   border-width: 1px 0;
   overflow: auto;
   color: #ccc;
-  line-height: 22.400000000000002px;
+  line-height: 25.6px;
 }
 .article-entry .highlight .gutter pre,
 .article-entry .gist .gist-file .gist-data .line-numbers {
@@ -1268,7 +1295,7 @@ blockquote cite {
   padding-right: 20px;
 }
 .article-entry .highlight .line {
-  height: 22.400000000000002px;
+  height: 25.6px;
 }
 .article-entry .highlight .line.marked {
   background: #515151;
@@ -1398,45 +1425,34 @@ pre .javascript .function {
     color: #fff;
   }
 }
+.widget-wrap {
+  margin-bottom: 50px !important;
+}
 @media screen and (min-width: 768px) {
-  #sidebar {
+  .widget-wrap {
     display: inline;
     float: left;
-    width: 23.333333333333332%;
-    margin: 0 0.833333333333333%;
+    width: 98.76543209876543%;
+    margin: 0 0.617283950617284%;
   }
 }
-.widget-wrap {
-  margin: 50px 0;
+.widget-title {
+  color: #ccc;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 0.5em;
+  line-height: 1em;
+  font-weight: bold;
 }
 .widget {
-  color: #777;
-  text-shadow: 0 1px #fff;
-  background: #ddd;
-  -webkit-box-shadow: 0 -1px 4px #ccc inset;
-  box-shadow: 0 -1px 4px #ccc inset;
-  border: 1px solid #ccc;
-  padding: 15px;
-  border-radius: 3px;
+  color: #999;
 }
-.widget a {
-  color: #258fb8;
-  text-decoration: none;
-}
-.widget a:hover {
-  text-decoration: underline;
-}
-.widget ul ul,
-.widget ol ul,
-.widget dl ul,
-.widget ul ol,
-.widget ol ol,
-.widget dl ol,
-.widget ul dl,
-.widget ol dl,
-.widget dl dl {
-  margin-left: 15px;
-  list-style: disc;
+.widget ul li,
+.widget ol li {
+  display: inline-block;
+  zoom: 1;
+  *display: inline;
+  padding-right: 0.75em;
 }
 .widget {
   line-height: 1.6em;
