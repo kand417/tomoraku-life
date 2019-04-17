@@ -124,7 +124,7 @@ body,
 }
 body {
   background: #eee;
-  font: 16px -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  font: 14px -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
   -webkit-text-size-adjust: 100%;
 }
 .outer {
@@ -299,7 +299,7 @@ body {
   font-weight: bold;
 }
 #header {
-  height: 200px;
+  height: 150px;
   position: relative;
   border-bottom: 1px solid #ddd;
 }
@@ -339,19 +339,19 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background: center #239fff;
+  background: center #00aced;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
-  z-index: -1;
+  z-index: 0;
 }
 #header-title {
   text-align: center;
-  height: 40px;
+  height: 28px;
   position: absolute;
   top: 50%;
   left: 0;
-  margin-top: -20px;
+  margin-top: -14px;
 }
 #logo,
 #subtitle {
@@ -361,17 +361,17 @@ body {
   text-shadow: 0 1px 4px rgba(0,0,0,0.3);
 }
 #logo {
-  font-size: 40px;
-  line-height: 40px;
+  font-size: 28px;
+  line-height: 28px;
   letter-spacing: 2px;
 }
 #subtitle {
-  font-size: 16px;
-  line-height: 16px;
+  font-size: 12px;
+  line-height: 12px;
   letter-spacing: 1px;
 }
 #subtitle-wrap {
-  margin-top: 16px;
+  margin-top: 12px;
 }
 #main-nav {
   float: left;
@@ -398,9 +398,9 @@ body {
 .nav-icon {
   font-family: FontAwesome;
   text-align: center;
-  font-size: 16px;
-  width: 16px;
-  height: 16px;
+  font-size: 14px;
+  width: 14px;
+  height: 14px;
   padding: 20px 15px;
   position: relative;
   cursor: pointer;
@@ -620,7 +620,7 @@ a.article-title:hover {
   text-align: center;
 }
 .article-entry blockquote footer {
-  font-size: 16px;
+  font-size: 14px;
   margin: 1.6em 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
 }
@@ -993,33 +993,30 @@ a.article-title:hover {
 }
 blockquote {
   position: relative;
-  padding: 10px 15px 10px 60px;
+  padding: 30px 15px 8px 15px;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  font-style: italic;
-  background: #f5f5f5;
-  color: #777;
-  border-left: 4px solid #9dd4ff;
-  -webkit-box-shadow: 0 2px 4px rgba(0,0,0,0.14);
-  box-shadow: 0 2px 4px rgba(0,0,0,0.14);
+  background: #efefef;
+  color: #555;
 }
 blockquote:before {
   display: inline-block;
   position: absolute;
-  top: 7px;
-  left: 0;
+  top: 13px;
+  left: 15px;
   vertical-align: middle;
-  content: "“";
-  font-family: sans-serif;
-  color: #9dd4ff;
-  font-size: 90px;
+  content: "\f10d";
+  font-family: FontAwesome;
+  color: #cfcfcf;
+  font-size: 28px;
   line-height: 1;
+  font-weight: 900;
 }
 blockquote p {
   padding: 0;
-  margin: 7px 0;
-  line-height: 1.7;
+  margin: 10px 0;
+  line-height: 1.6em;
 }
 blockquote cite {
   display: block;
@@ -1074,6 +1071,8 @@ blockquote cite {
   list-style-position: outside;
   margin-left: 1em;
   margin-right: 1em;
+  margin-top: 10px;
+  margin-bottom: 10px;
   padding-left: 0;
 /* リストの記号を付けない場合は   
      list-style: outside none none !important;
@@ -1239,7 +1238,7 @@ blockquote cite {
   border-width: 1px 0;
   overflow: auto;
   color: #ccc;
-  line-height: 25.6px;
+  line-height: 22.400000000000002px;
 }
 .article-entry .highlight .gutter pre,
 .article-entry .gist .gist-file .gist-data .line-numbers {
@@ -1295,7 +1294,7 @@ blockquote cite {
   padding-right: 20px;
 }
 .article-entry .highlight .line {
-  height: 25.6px;
+  height: 22.400000000000002px;
 }
 .article-entry .highlight .line.marked {
   background: #515151;
