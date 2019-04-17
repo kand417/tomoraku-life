@@ -615,7 +615,6 @@ a.article-title:hover {
 }
 .article-entry blockquote {
   font-family: Georgia, "Times New Roman", serif;
-  font-size: 1.2em;
   margin: 1.6em 20px;
   text-align: center;
 }
@@ -1024,27 +1023,47 @@ blockquote cite {
   color: #888;
   font-size: 0.9em;
 }
-.article-entry h2 {
+.article-title {
   position: relative;
-  color: #fff;
-  background: #239fff;
-  line-height: 1.2;
-  padding: 0.5em 0.5em 0.5em 1em;
+  background: #dfefff;
+  -webkit-box-shadow: 0px 0px 0px 5px #dfefff;
+  box-shadow: 0px 0px 0px 5px #dfefff;
+  border: dashed 2px #fff;
+  padding: 0.2em 0.5em;
+  color: #454545;
+}
+.article-entry h2 {
+  margin-top: 40px;
+  padding: 0.5em; /*文字周りの余白*/
+  color: #494949; /*文字色*/
+  background: #dfefff; /*背景色*/
+  border-left: solid 5px #44a1ff; /*左線（実線 太さ 色）*/
 }
 .article-entry h2 .header-anchor {
   display: none;
 }
 .article-entry h3 {
-  border-bottom: solid 3px #239fff;
+  position: relative;
+  padding-left: 1.2em; /*アイコン分のスペース*/
+  line-height: 1.4;
 }
 .article-entry h3 .header-anchor {
   display: none;
 }
+.article-entry h3:before {
+  font-family: FontAwesome;
+  content: "\f138"; /*アイコンのユニコード*/
+  position: absolute; /*絶対位置*/
+  font-size: 1em; /*サイズ*/
+  left: 0; /*アイコンの位置*/
+  top: 0; /*アイコンの位置*/
+  color: #5ab9ff; /*アイコン色*/
+}
 .article-entry strong {
-  background: rgba(0,0,0,0) -webkit-linear-gradient(transparent 60%, #ffffbc 0%) repeat scroll 0 0;
-  background: rgba(0,0,0,0) -moz-linear-gradient(transparent 60%, #ffffbc 0%) repeat scroll 0 0;
-  background: rgba(0,0,0,0) -ms-linear-gradient(transparent 60%, #ffffbc 0%) repeat scroll 0 0;
-  background: rgba(0,0,0,0) linear-gradient(transparent 60%, #ffffbc 0%) repeat scroll 0 0;
+  background: rgba(0,0,0,0) -webkit-linear-gradient(transparent 80%, #ffff7f 0%) repeat scroll 0 0;
+  background: rgba(0,0,0,0) -moz-linear-gradient(transparent 80%, #ffff7f 0%) repeat scroll 0 0;
+  background: rgba(0,0,0,0) -ms-linear-gradient(transparent 80%, #ffff7f 0%) repeat scroll 0 0;
+  background: rgba(0,0,0,0) linear-gradient(transparent 80%, #ffff7f 0%) repeat scroll 0 0;
 }
 .toc {
   background: #f9f9f9 none repeat scroll 0 0;
@@ -1077,6 +1096,7 @@ blockquote cite {
 /* リストの記号を付けない場合は   
      list-style: outside none none !important;
     */
+  line-height: 0.8em;
 }
 #comments {
   background: #fff;
