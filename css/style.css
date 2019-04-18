@@ -1023,7 +1023,7 @@ blockquote cite {
   color: #888;
   font-size: 0.9em;
 }
-.article-title {
+.article-header h1 {
   position: relative;
   background: #dfefff;
   -webkit-box-shadow: 0px 0px 0px 5px #dfefff;
