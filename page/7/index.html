@@ -73,7 +73,9 @@ ga('send', 'pageview');
         
           <a class="main-nav-link" href="/">Home</a>
         
-          <a class="main-nav-link" href="/archives">Archives</a>
+          <a class="main-nav-link" href="/archives">記事一覧</a>
+        
+          <a class="main-nav-link" href="/about-this-page">このブログについて</a>
         
       </nav>
       <nav id="sub-nav">
@@ -90,97 +92,6 @@ ga('send', 'pageview');
 </header>
       <div class="outer">
         <section id="main">
-  
-    <article id="post-unity-5-e3-81-a7-e3-82-b2-e3-83-bc-e3-83-a0-e3-82-92-e4-bd-9c-e3-81-a3-e3-81-a6-e3-81-bf-e3-82-8b-1-e6-97-a5-e7-9b-ae" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2015/03/11/unity-5-e3-81-a7-e3-82-b2-e3-83-bc-e3-83-a0-e3-82-92-e4-bd-9c-e3-81-a3-e3-81-a6-e3-81-bf-e3-82-8b-1-e6-97-a5-e7-9b-ae/" class="article-date">
-  <time datetime="2015-03-10T17:30:12.000Z" itemprop="datePublished">2015-03-11</time>
-</a>
-    
-  <div class="article-category">
-    <a class="article-category-link" href="/categories/お金の管理/">お金の管理</a>
-  </div>
-
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2015/03/11/unity-5-e3-81-a7-e3-82-b2-e3-83-bc-e3-83-a0-e3-82-92-e4-bd-9c-e3-81-a3-e3-81-a6-e3-81-bf-e3-82-8b-1-e6-97-a5-e7-9b-ae/"> Unity 5 でゲームを作ってみる (1日目)		</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p><a href="/images/2015/03/unity.jpg"><img src="/images/2015/03/unity-300x225.jpg" alt="unity"></a> 言わずと知れたゲームエンジンである Unity ですが、その最新版である Unity 5 が 2015/3/4にリリースされました！ 　　<a href="http://japan.unity3d.com/blog/press/20150304" target="_blank" rel="noopener">Unity、ゲームエンジンUnityの最新バージョン Unity 5を公開（外部サイト）</a> これを機に、何を隠そう Unity をまだほとんどいじったことのない完全初心者の私が何か簡単でもいいからゲームを作ってみようと考えた次第であります。 これから Unity を始める人に参考になれば！（と言っても私もこれから学ぶのですが・・・一緒に頑張りましょう！） [toc]</p>
-<h2><span id="unitytutedonnan">Unityってどんなん？</span><a href="#unitytutedonnan" class="header-anchor">#</a></h2><p>自分のオリジナルゲームを作り始める前に Unity を使うとどんなゲームが作れるのかを確認しておきましょう。自作 Unity ゲームを公開するサイトがあるのでいくつかいじってみましょう。 　　<a href="http://unitygameuploader.jpn.org/" target="_blank" rel="noopener">UnityGameUploader（外部サイト）</a> ぶっちゃけ<strong>クソゲーばっか</strong>ですね！（爆）いいんです、私もこれからクソゲーを作るつもりなんですから（笑）</p>
-<h2><span id="ojin-kakaranaino">お金かからないの？</span><a href="#ojin-kakaranaino" class="header-anchor">#</a></h2><p>初めて使うときの素朴な疑問ですね。 <strong>全てが無料ではないです。</strong>ただ、無料の範囲でも十分過ぎるほど色々できます。趣味の範囲ならばお金は全く必要ありません。 チームで開発したり、チューニングしたり、サポートを受けたり、バグを直してもらったりするのは有料でとなります。趣味レベルでは要りませんね。また、品質の良い素材の多くは有料だったりします。</p>
-<h2><span id="insutorusiyou">インストールしよう</span><a href="#insutorusiyou" class="header-anchor">#</a></h2><p>何はなくともインストールからですね。<a href="https://unity3d.com/jp/5" target="_blank" rel="noopener">こちら（公式サイト）</a>から入手しましょう。インストーラは軽量ですが、インストール開始から2GBほどのファイルのダウンロードが始まるので１時間ほどかかります。インストールが始まれば、基本ほっとくだけなので簡単です。</p>
-<h2><span id="qi-dong-siyou">起動しよう</span><a href="#qi-dong-siyou" class="header-anchor">#</a></h2><p>インストールが終わったら　アプリケーション　に Unity が入ってるのでこれを起動すればOK！あ、ちなみに私はMacユーザーですがWindowsでも大体同じですよね！（多分） <a href="/images/2015/03/Unity_App.png"><img src="/images/2015/03/Unity_App-300x164.png" alt="Unity_App"></a> スクリーンショットを撮り忘れましたが、途中でユーザアカウントの作成を求められますのでサクッと作りましょう。アカウントは後から素材などをダウンロードするために超重要になってきますのでパスワード忘れないように注意！ 起動が完了すると次のような画面がでてきました。 <a href="/images/2015/03/Unity_5_0_0f4.png"><img src="/images/2015/03/Unity_5_0_0f4-300x189.png" alt="Unity_5_0_0f4"></a> おおおお、、今日はここまで！ こま</p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="https://tomoraku-life.com/2015/03/11/unity-5-e3-81-a7-e3-82-b2-e3-83-bc-e3-83-a0-e3-82-92-e4-bd-9c-e3-81-a3-e3-81-a6-e3-81-bf-e3-82-8b-1-e6-97-a5-e7-9b-ae/" data-id="cjuo7it6m006ecyvngdvpa0eb" class="article-share-link">共有</a>
-      
-      
-    </footer>
-  </div>
-  
-</article>
-
-
-  
-    <article id="post-post-630" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2015/02/22/post-630/" class="article-date">
-  <time datetime="2015-02-22T02:15:56.000Z" itemprop="datePublished">2015-02-22</time>
-</a>
-    
-  <div class="article-category">
-    <a class="article-category-link" href="/categories/時短ワザ/">時短ワザ</a>
-  </div>
-
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2015/02/22/post-630/"> ドラム式洗濯機のすすめ		</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>引っ越しを機に、あまり考えてなかった・・・いや、全く考えていなかった洗濯機を思い切って買い換えてしまいました。 なななんと１８万円の出費！ （実は、新しい家に合う洗濯機のホースを買うためにヤマダ電気に行ったのですが、気が付いたら洗濯機を買う流れに・・・金銭感覚、絶賛崩壊中です。） 前に、洗濯物でいかに楽をするかを<a href="https://tomoraku-life.com/%e7%9b%ae%e3%81%8b%e3%82%89%e3%82%a6%e3%83%ad%e3%82%b3%e3%81%ae%e5%85%b1%e5%83%8d%e3%81%8d%e5%a4%ab%e5%a9%a6%e7%94%9f%e6%b4%bb%e3%80%8a%e6%b4%97%e6%bf%af%e7%89%a9%e3%81%a7%e3%81%84%e3%81%8b%e3%81%ab/" title="目からウロコの共働き夫婦生活《洗濯物でいかに楽するか編》">こちらの記事</a>で紹介しましたがそれも過去の話…この方法よりもっと素敵な現実が待ち受けていました。 そう、私たちはドラム式の洗濯機を買いました。 ★こちらが我が家の新しい洗濯機 <a href="/images/2015/02/2015-02-22-11_Fotor.jpg"><img src="/images/2015/02/2015-02-22-11_Fotor-300x300.jpg" alt="2015-02-22 11_Fotor"></a> 洗濯機を衝動買いしてしまった私たちですが、全く後悔してません。それどころかむしろ買ってよかった！それがなぜだか紹介してみたいと思います。 [toc]</p>
-<h2><span id="doramushi-xi-zhuo-ji-noyoitokoro">ドラム式洗濯機のよいところ</span><a href="#doramushi-xi-zhuo-ji-noyoitokoro" class="header-anchor">#</a></h2><h3><span id="jin-shi-fu-gaxi-zhuo-yagan-zao-detong-ndarisinai">今時　服が洗濯や乾燥で痛んだりしない</span><a href="#jin-shi-fu-gaxi-zhuo-yagan-zao-detong-ndarisinai" class="header-anchor">#</a></h3><p>ドラム式は洗濯に弱い？ 乾燥機にかけたら服がバリバリになり服が傷むのでは？ いやいや、そんな心配は皆無でした。 むしろ、汚れはしっかりとってくれるし（洗濯終わった後にしっかりほこりがたまっている） 乾燥は、外で干すよりいいんじゃないかと思うほどです。</p>
-<h3><span id="shi-jian-nozhi-yue-ganai">時間の制約がない</span><a href="#shi-jian-nozhi-yue-ganai" class="header-anchor">#</a></h3><p>洗濯機にいれてスイッチを押したらできあがり。あとは、畳むだけ。 その畳むという作業は、縦型洗濯機では必要な干す作業とは違って、 洗濯機をかけたら次に干さなければならないという時間の制約はなく、空いた時間にくつろぎながらできる作業です。なので苦になりません。  </p>
-<h3><span id="da-fu-nashi-duan">大幅な時短</span><a href="#da-fu-nashi-duan" class="header-anchor">#</a></h3><p>干す→取り込むという手間が省けたのはまぎれもない事実です。 また、このドラム式の洗濯機１０年間使うとして １回１５分 × 週３回 × ４週間 × １２ヶ月 × １０年間 ＝ ３６０時間 これを時給１０００円に換算したら３６万円 １８万で購入したので１８万円分もドラムちゃんが代わりに働いてくれている！ と妙な計算をして嬉しくなっています。   また、前に紹介した <a href="https://tomoraku-life.com/%e3%81%82%e3%81%a3%e3%81%a8%e3%81%84%e3%81%86%e9%96%93%e3%81%abt%e3%82%b7%e3%83%a3%e3%83%84%e3%82%92%e7%95%b3%e3%82%80%e6%96%b9%e6%b3%95/" title="3秒でTシャツを畳める畳み方">3秒でTシャツを畳める畳み方</a> を使えば畳む作業も時短です。</p>
-<h2><span id="doramushi-xi-zhuo-ji-qi-wotukerutokoro">ドラム式洗濯機気をつけるところ</span><a href="#doramushi-xi-zhuo-ji-qi-wotukerutokoro" class="header-anchor">#</a></h2><p>調子に乗って、なんでもいける！とクッションカバーを洗濯乾燥までしたところ、しわしわの跡がついて、 結局アイロンをしっかりかけるという手間が発生。 クッションカバーは洗濯して出してのばして干します。誓 逆にいうと気をつけるのはこれくらいでしょうか。</p>
-<h2><span id="matome">まとめ</span><a href="#matome" class="header-anchor">#</a></h2><p>いかがでしたでしょうか？ ドラム式の洗濯機は普通の縦型のものに比べて少々値段は高いですが、その効果は絶大です。正直、縦型の洗濯機にはもう戻れません。 これから洗濯機を購入される場合には真っ先に値段で除外せずにドラム式も選択肢に入れてみては！？ ★ウチが購入した機種はこちらです</p>
-<figure class="hexo-tag-amazon"><a href="https://www.amazon.co.jp/%E6%97%A5%E7%AB%8B-HITACHI-BD-V9700L-%E3%83%89%E3%83%A9%E3%83%A0%E5%BC%8F%E6%B4%97%E6%BF%AF%E4%B9%BE%E7%87%A5%E6%A9%9F%E3%80%90%E5%B7%A6%E9%96%8B%E3%81%8D%E3%80%91%E3%82%B7%E3%83%A3%E3%83%B3%E3%83%91%E3%83%B3HITACHI-BD-V9700L-N/dp/B00N2O2JA0?SubscriptionId=AKIAIFX3QFZTUZHS2UAQ&tag=tomorakulife-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B00N2O2JA0" class="hexo-tag-amazon-thumb" target="_blank" rel="noopener"><img src="https://images-fe.ssl-images-amazon.com/images/I/31S7P0aOxdL._SL160_.jpg"></a><figcaption class="hexo-tag-amazon-caption"><a href="https://www.amazon.co.jp/%E6%97%A5%E7%AB%8B-HITACHI-BD-V9700L-%E3%83%89%E3%83%A9%E3%83%A0%E5%BC%8F%E6%B4%97%E6%BF%AF%E4%B9%BE%E7%87%A5%E6%A9%9F%E3%80%90%E5%B7%A6%E9%96%8B%E3%81%8D%E3%80%91%E3%82%B7%E3%83%A3%E3%83%B3%E3%83%91%E3%83%B3HITACHI-BD-V9700L-N/dp/B00N2O2JA0?SubscriptionId=AKIAIFX3QFZTUZHS2UAQ&tag=tomorakulife-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B00N2O2JA0" class="hexo-tag-amazon-title" target="_blank" rel="noopener">日立 10.0kg ドラム式洗濯乾燥機【左開き】シャンパンHITACHI BD-V9700L-N</a><div class="hexo-tag-amazon-meta"><span class="hexo-tag-amazon-author">日立 (HITACHI)</span></div><a href="https://www.amazon.co.jp/%E6%97%A5%E7%AB%8B-HITACHI-BD-V9700L-%E3%83%89%E3%83%A9%E3%83%A0%E5%BC%8F%E6%B4%97%E6%BF%AF%E4%B9%BE%E7%87%A5%E6%A9%9F%E3%80%90%E5%B7%A6%E9%96%8B%E3%81%8D%E3%80%91%E3%82%B7%E3%83%A3%E3%83%B3%E3%83%91%E3%83%B3HITACHI-BD-V9700L-N/dp/B00N2O2JA0?SubscriptionId=AKIAIFX3QFZTUZHS2UAQ&tag=tomorakulife-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B00N2O2JA0" class="hexo-tag-amazon-link" target="_blank" rel="noopener">Amazonで見る</a></figcaption></figure>
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="https://tomoraku-life.com/2015/02/22/post-630/" data-id="cjuo7it68005ncyvnvtq7k95e" class="article-share-link">共有</a>
-      
-      
-    </footer>
-  </div>
-  
-</article>
-
-
   
     <article id="post-post-624" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
@@ -222,7 +133,7 @@ ga('send', 'pageview');
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://tomoraku-life.com/2015/02/15/post-624/" data-id="cjuo7it66005kcyvn3xxg36gl" class="article-share-link">共有</a>
+      <a data-url="https://tomoraku-life.com/2015/02/15/post-624/" data-id="cjuqycuom005tcyvn2iyb2im3" class="article-share-link">共有</a>
       
       
     </footer>
@@ -267,7 +178,7 @@ ga('send', 'pageview');
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://tomoraku-life.com/2015/02/04/post-609/" data-id="cjuo7it65005icyvndc0bn690" class="article-share-link">共有</a>
+      <a data-url="https://tomoraku-life.com/2015/02/04/post-609/" data-id="cjuqycuok005qcyvn8z4b3n2u" class="article-share-link">共有</a>
       
       
     </footer>
@@ -312,7 +223,7 @@ ga('send', 'pageview');
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://tomoraku-life.com/2015/01/20/post-588/" data-id="cjuo7it63005dcyvn6so1j6j9" class="article-share-link">共有</a>
+      <a data-url="https://tomoraku-life.com/2015/01/20/post-588/" data-id="cjuqycuok005ocyvn5hh3era4" class="article-share-link">共有</a>
       
       
     </footer>
@@ -355,7 +266,7 @@ ga('send', 'pageview');
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://tomoraku-life.com/2015/01/19/e5-86-85-e8-a6-a7-e4-bc-9a-ef-bc-88-e6-96-b0-e7-af-89-ef-bc-91-e6-88-b8-e5-bb-ba-e3-81-a6-ef-bc-89-e3-81-ab-e8-a1-8c-e3-81-a3-e3-81-a6-e3-81-8d-e3-81-be-e3-81-97-e3-81-9f/" data-id="cjuo7it3h001ecyvnyr2h61wb" class="article-share-link">共有</a>
+      <a data-url="https://tomoraku-life.com/2015/01/19/e5-86-85-e8-a6-a7-e4-bc-9a-ef-bc-88-e6-96-b0-e7-af-89-ef-bc-91-e6-88-b8-e5-bb-ba-e3-81-a6-ef-bc-89-e3-81-ab-e8-a1-8c-e3-81-a3-e3-81-a6-e3-81-8d-e3-81-be-e3-81-97-e3-81-9f/" data-id="cjuqycumf001pcyvn66m28dw5" class="article-share-link">共有</a>
       
       
     </footer>
@@ -400,7 +311,7 @@ ga('send', 'pageview');
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://tomoraku-life.com/2015/01/18/post-569/" data-id="cjuo7it62005acyvnsn5u49we" class="article-share-link">共有</a>
+      <a data-url="https://tomoraku-life.com/2015/01/18/post-569/" data-id="cjuqycuoi005lcyvn1zuuwqox" class="article-share-link">共有</a>
       
       
     </footer>
@@ -454,7 +365,7 @@ ga('send', 'pageview');
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://tomoraku-life.com/2015/01/13/e4-bd-8f-e5-ae-85-e3-83-ad-e3-83-bc-e3-83-b3-e3-80-81-e7-b9-b0-e4-b8-8a-e3-81-92-e8-bf-94-e6-b8-88-e3-81-97-e3-81-aa-e3-81-84-e6-96-b9-e3-81-8c-e3-81-8a-e5-be-97-ef-bc-81-ef-bc-9f/" data-id="cjuo7it3d001bcyvni8qzulbj" class="article-share-link">共有</a>
+      <a data-url="https://tomoraku-life.com/2015/01/13/e4-bd-8f-e5-ae-85-e3-83-ad-e3-83-bc-e3-83-b3-e3-80-81-e7-b9-b0-e4-b8-8a-e3-81-92-e8-bf-94-e6-b8-88-e3-81-97-e3-81-aa-e3-81-84-e6-96-b9-e3-81-8c-e3-81-8a-e5-be-97-ef-bc-81-ef-bc-9f/" data-id="cjuqycumb001kcyvn4paxkigl" class="article-share-link">共有</a>
       
       
     </footer>
@@ -508,7 +419,7 @@ ga('send', 'pageview');
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://tomoraku-life.com/2015/01/12/post-507/" data-id="cjuo7it610058cyvn2cx8wimw" class="article-share-link">共有</a>
+      <a data-url="https://tomoraku-life.com/2015/01/12/post-507/" data-id="cjuqycuoh005jcyvnb6rlefp8" class="article-share-link">共有</a>
       
       
     </footer>
@@ -559,7 +470,103 @@ ga('send', 'pageview');
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://tomoraku-life.com/2015/01/08/post-502/" data-id="cjuo7it5z0055cyvn80z4kfsx" class="article-share-link">共有</a>
+      <a data-url="https://tomoraku-life.com/2015/01/08/post-502/" data-id="cjuqycuoe005bcyvn6geuitx6" class="article-share-link">共有</a>
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-post-471" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2015/01/07/post-471/" class="article-date">
+  <time datetime="2015-01-06T23:01:43.000Z" itemprop="datePublished">2015-01-07</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/お出かけスポット/">お出かけスポット</a>►<a class="article-category-link" href="/categories/お出かけスポット/日記/">日記</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2015/01/07/post-471/"> 長野県開田高原　「風里（旅館）」へ行ってきました。これぞ最高のおもてなし体験！		</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>昨年、仕事に関するある試験に合格したので   図々しくも、その合格祝いに「ミステリーツアー」の企画を夫に頼みました。   すると、随分前に、職場の知人が勧めてくれた<strong>旅館「風里」</strong>を覚えていて   連れて行ってくれました。（１２月３０日・３１日　）   風里は、長野県の開田高原にあります。   その旅館が素敵だったので紹介したいと思います。   行った前日が大雪、景色は雪雪雪の中、   木曽福島駅から乗り込んだシャトルバスから野生猿の一群に遭遇することができました。   （写真が撮れなくて残念）   旅館につくと、チェックインかなと思いきやロビーの椅子に案内され、お菓子とお茶が出てきて   そこでくつろぎながらのチェックイン   「これがお.も.て.な.し.というやつか！」　とここですでに感動です。   ロビーの大きな窓から見える景色がこれまた最高。夏には野菜畑が広がるそうです。 <a href="/images/2015/01/IMG_3786.jpg"><img src="/images/2015/01/IMG_3786-300x225.jpg" alt="IMG_3786"></a>   中庭を散歩するとハンモックや揺り椅子がありそこでくつろぎました。何気にハンモックは初体験でした。   お部屋はこんな感じ↓ <img src="/images/2015/01/IMG_3784-300x225.jpg" alt="IMG_3784"> 夕食の前に温泉につかりに行きます。こんな素敵な回廊（↓）を通って <img src="/images/2015/01/IMG_3805-225x300.jpg" alt="IMG_3805"> さて、何より楽しみにしていた夕食です。   メニューの中には読めない漢字がいっぱいです。 こんなときは… <a href="https://tomoraku-life.com/iphone%e3%81%a7%e8%aa%ad%e3%82%81%e3%81%aa%e3%81%84%e6%bc%a2%e5%ad%97%e3%82%92%e5%85%a5%e5%8a%9b%e3%81%99%e3%82%8b%e6%96%b9%e6%b3%95%ef%bc%88%e3%82%a2%e3%83%97%e3%83%aa%e4%b8%8d%e8%a6%81%ef%bc%89/" title="iPhoneで読めない漢字を入力する方法（アプリ不要）">iPhoneで読めない漢字を入力する方法（アプリ不要）</a>   <img src="/images/2015/01/IMG_3807-300x225.jpg" alt="IMG_3807">               量がめちゃくちゃ多いのに食べきれてしまう不思議・・・   朝ごはんもこの調子でとんでもない量が出てくるのですが食べきってしまいました。   肉、野菜ともに半端なく美味しいのです。   ちなみに、木曽福島駅近くにある「だるまや」というお蕎麦屋さんも超有名らしく、外には   全く人気がないのに中に入ると、たくさんの人で賑わっていて、とても美味しいお蕎麦をいただきました。 <a href="/images/2015/01/IMG_3768.jpg"><img src="/images/2015/01/IMG_3768-300x225.jpg" alt="IMG_3768"></a> こんな感じで年末年始はリフレッシュをしたので 新しい年初め元気にスタートしたいと思います！ とまた自分に言い聞かせてみる。   ちぃ</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://tomoraku-life.com/2015/01/07/post-471/" data-id="cjuqycuof005ecyvnq0r8w2ho" class="article-share-link">共有</a>
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-e3-82-b3-e3-83-ad-e3-83-af-e3-82-a4-e3-83-89-e3-81-ae-e6-a0-aa-e4-b8-bb-e5-84-aa-e5-be-85-e3-81-a7-e3-81-8a-e5-af-bf-e5-8f-b8-e9-a3-9f-e3-81-b9-e3-81-9f-ef-bc-81" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2015/01/06/e3-82-b3-e3-83-ad-e3-83-af-e3-82-a4-e3-83-89-e3-81-ae-e6-a0-aa-e4-b8-bb-e5-84-aa-e5-be-85-e3-81-a7-e3-81-8a-e5-af-bf-e5-8f-b8-e9-a3-9f-e3-81-b9-e3-81-9f-ef-bc-81/" class="article-date">
+  <time datetime="2015-01-05T23:00:38.000Z" itemprop="datePublished">2015-01-06</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/投資／ふるさと納税/">投資／ふるさと納税</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2015/01/06/e3-82-b3-e3-83-ad-e3-83-af-e3-82-a4-e3-83-89-e3-81-ae-e6-a0-aa-e4-b8-bb-e5-84-aa-e5-be-85-e3-81-a7-e3-81-8a-e5-af-bf-e5-8f-b8-e9-a3-9f-e3-81-b9-e3-81-9f-ef-bc-81/"> コロワイドの株主優待でいただきました！		</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p><a href="/images/2015/01/FullSizeRender_Fotor.jpg"><img src="/images/2015/01/FullSizeRender_Fotor-300x231.jpg" alt="FullSizeRender_Fotor"></a> 先日、<strong>コロワイドの株主優待</strong>で夫婦でお寿司をいただきました！ おいしかった〜 しかも、株主優待で食べると優越感からかなんだか<strong>余計においしく感じる</strong>( ´ ▽ ` )ﾉ 今回はコロワイドの株主優待について紹介してみます！ お得度が非常に高く、雑誌などメディアでも度々オススメされている株ですね！ [toc]</p>
+<h2><span id="he-gamoraerunoka">何がもらえるのか</span><a href="#he-gamoraerunoka" class="header-anchor">#</a></h2><p>コロワイドの株主優待はいわゆる<strong>「お食事券」</strong>です。 このお食事券を<strong>全国のコロワイドグループ店舗</strong>で利用可能です。 なんと、年に4回、各1万円いただけます。つまり、<strong>年間合計４万円</strong>です！ 詳しくは <a href="http://www.colowide.co.jp/ir/stockholder.html" target="_blank" rel="noopener">コロワイドのWebページ</a> を見てみてください。</p>
+<h2><span id="he-gaiinoka">何がいいのか</span><a href="#he-gaiinoka" class="header-anchor">#</a></h2><h3><span id="you-dai-sarerujin-e-noritangada-kii">優待される金額のリターンが大きい</span><a href="#you-dai-sarerujin-e-noritangada-kii" class="header-anchor">#</a></h3><p>これは単純です。さきほども書いたとおり<strong>年間4万円</strong>です。 コロワイドの株価は1,711円(2015/1/5現在)で500株から優待を受けられます。 必要金額は約85万円です。ちょっとお高いですね。</p>
+<blockquote>
+<p>1,711 × 500 = 855,500円</p>
+</blockquote>
+<p>ですが、株主優待だけでリターンが約4.7%となります。これが相当大きいです。</p>
+<blockquote>
+<p>40,000 ÷ 855,500 = 4.7%</p>
+</blockquote>
+<p>ただし、<strong>最近ちょっと高くなってしまいましたね。</strong>私が入手にした時はもう少し安かったのですが。 <a href="http://stocks.finance.yahoo.co.jp/stocks/chart/?code=7616.T&amp;ct=z&amp;t=1y" target="_blank" rel="noopener">コロワイドの株価（Yahooファイナンス）</a> これからコロワイドの株の購入を検討している方は<strong>もう少しタイミングを見計らった方が良いかもしれません</strong>。</p>
+<h3><span id="kadodefa-xing-sareru">カードで発行される</span><a href="#kadodefa-xing-sareru" class="header-anchor">#</a></h3><p>お食事券の株主優待は紙切れでの発行がほとんどですが、 コロワイドの株主優待は<strong>カードで発行</strong>されます。 そのため、<strong>財布に忍ばせておけば</strong>、思いついたときに<strong>すぐに利用</strong>できます。 出掛け先で食事を取ろうとするとき「あ、あの店の株主優待持ってる。けど、今、券を持ってないから、また今度。」というありがちな残念がありませんね。</p>
+<h3><span id="1-yuan-dan-wei-deli-yong-dekiru">1円単位で利用できる</span><a href="#1-yuan-dan-wei-deli-yong-dekiru" class="header-anchor">#</a></h3><p>あたかもSuicaなどの<strong>電子マネーのように利用</strong>できます。 1円単位で利用可能なため、他のお食事券でありがちな<strong>「端数は現金で」</strong>がありません。 <strong>株主優待だけで支払い完了するからこその優越感</strong>に浸れます。</p>
+<h3><span id="li-yong-dekirudian-nofu-gaguang-i">利用できる店の幅が広い</span><a href="#li-yong-dekirudian-nofu-gaguang-i" class="header-anchor">#</a></h3><p>コロワイドは特定のイタリアン・ステーキ・居酒屋など、種類や業態を選ばず店舗を展開しています。 <a href="http://www.colowide.co.jp/corpo/strategy-growth.html" target="_blank" rel="noopener">コロワイドの「企業戦略」のWebページ</a> 最近では、「牛角」や「かっぱ寿し」をM&amp;Aしたりしてさらに拡大を続けています。 そのため、<strong>コロワイドの株を一つもっているだけで色々な外食を楽しめる</strong>ということです。 ちなにみ私のおすすめは「ステーキの宮」「にぎりの徳兵衛」です。記事の冒頭に載せている写真は「にぎりの徳兵衛」のものです。</p>
+<h2><span id="matome">まとめ</span><a href="#matome" class="header-anchor">#</a></h2><p>いかがでしたでしょうか？ コロワイドは雑誌などでも紹介されている通り、間違いなくおすすめな株です。 少々高いので時期を見計らう必要はありますが検討してみては？ こま</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://tomoraku-life.com/2015/01/06/e3-82-b3-e3-83-ad-e3-83-af-e3-82-a4-e3-83-89-e3-81-ae-e6-a0-aa-e4-b8-bb-e5-84-aa-e5-be-85-e3-81-a7-e3-81-8a-e5-af-bf-e5-8f-b8-e9-a3-9f-e3-81-b9-e3-81-9f-ef-bc-81/" data-id="cjuqycum30013cyvn8a28r9zs" class="article-share-link">共有</a>
       
       
     </footer>
@@ -583,26 +590,36 @@ ga('send', 'pageview');
   
     <aside id="sidebar" class="outer">
   
+    <div class="widget-wrap">
+    <h3 class="widget-title">自己紹介</h3>
+    <div class="widget">
+      <img src="/images/2019/03/C92253DC-7554-4AC7-8D14-F6F61D30DC08.png" width="100" height="100" align="left">
+      コマです。自称、共働き楽々ブロガーです。妻と子供と３人で暮らしており、日々、「いかに楽して」「いかに楽しく」生活できるか（＝楽々ライフ）を考えています。
+      その他、ITエンジニア、アップル信者、ギタリストという側面ももっています。
+    </div>
+</div>
+  
+    <div class="widget-wrap">
+    <h3 class="widget-title">Twitter</h3>
+    Twitterでブログ更新情報やその他思ったことなどをつぶやいています。お気軽にフォローください♪
+    <a class="twitter-timeline" data-lang="ja" data-width="400" data-height="400" data-theme="dark" href="https://twitter.com/tomoraku_life?ref_src=twsrc%5Etfw">Tweets by tomoraku_life</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</div>
+  
     
   <div class="widget-wrap">
     <h3 class="widget-title">カテゴリ</h3>
     <div class="widget">
-      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/Mac-iPhone/">Mac/iPhone</a><span class="category-list-count">13</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/Mac-iPhone/節約ワザ/">節約ワザ</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/Mac-iPhone/音楽/">音楽</a><span class="category-list-count">2</span></li></ul></li><li class="category-list-item"><a class="category-list-link" href="/categories/お出かけスポット/">お出かけスポット</a><span class="category-list-count">7</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/お出かけスポット/日記/">日記</a><span class="category-list-count">3</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/お出かけスポット/節約ワザ/">節約ワザ</a><span class="category-list-count">1</span></li></ul></li><li class="category-list-item"><a class="category-list-link" href="/categories/お金のこと/">お金のこと</a><span class="category-list-count">5</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/お金の管理/">お金の管理</a><span class="category-list-count">9</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/お金の管理/マイホーム/">マイホーム</a><span class="category-list-count">2</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/お金の管理/節約ワザ/">節約ワザ</a><span class="category-list-count">1</span></li></ul></li><li class="category-list-item"><a class="category-list-link" href="/categories/ブログについて/">ブログについて</a><span class="category-list-count">2</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/マイホーム/">マイホーム</a><span class="category-list-count">12</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/マイホーム/時短ワザ/">時短ワザ</a><span class="category-list-count">1</span></li></ul></li><li class="category-list-item"><a class="category-list-link" href="/categories/仕事/">仕事</a><span class="category-list-count">2</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/妊活-不妊治療/">妊活/不妊治療</a><span class="category-list-count">4</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/子育て/">子育て</a><span class="category-list-count">5</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/子育て/家電/">家電</a><span class="category-list-count">1</span></li></ul></li><li class="category-list-item"><a class="category-list-link" href="/categories/家電/">家電</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/投資／ふるさと納税/">投資／ふるさと納税</a><span class="category-list-count">10</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/投資／ふるさと納税/節約ワザ/">節約ワザ</a><span class="category-list-count">2</span></li></ul></li><li class="category-list-item"><a class="category-list-link" href="/categories/料理/">料理</a><span class="category-list-count">9</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/料理/日記/">日記</a><span class="category-list-count">3</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/料理/時短ワザ/">時短ワザ</a><span class="category-list-count">2</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/料理/時短ワザ/節約ワザ/">節約ワザ</a><span class="category-list-count">1</span></li></ul></li><li class="category-list-item"><a class="category-list-link" href="/categories/料理/節約ワザ/">節約ワザ</a><span class="category-list-count">3</span></li></ul></li><li class="category-list-item"><a class="category-list-link" href="/categories/日記/">日記</a><span class="category-list-count">9</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/日記/節約ワザ/">節約ワザ</a><span class="category-list-count">1</span></li></ul></li><li class="category-list-item"><a class="category-list-link" href="/categories/時短ワザ/">時短ワザ</a><span class="category-list-count">12</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/時短ワザ/節約ワザ/">節約ワザ</a><span class="category-list-count">1</span></li></ul></li><li class="category-list-item"><a class="category-list-link" href="/categories/生活の知恵/">生活の知恵</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/節約ワザ/">節約ワザ</a><span class="category-list-count">8</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/読書ログ/">読書ログ</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/音楽/">音楽</a><span class="category-list-count">3</span></li></ul>
+      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/Mac-iPhone/">Mac/iPhone</a><span class="category-list-count">13</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/Mac-iPhone/節約ワザ/">節約ワザ</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/Mac-iPhone/音楽/">音楽</a><span class="category-list-count">2</span></li></ul></li><li class="category-list-item"><a class="category-list-link" href="/categories/お出かけスポット/">お出かけスポット</a><span class="category-list-count">7</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/お出かけスポット/日記/">日記</a><span class="category-list-count">3</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/お出かけスポット/節約ワザ/">節約ワザ</a><span class="category-list-count">1</span></li></ul></li><li class="category-list-item"><a class="category-list-link" href="/categories/お金のこと/">お金のこと</a><span class="category-list-count">7</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/お金の管理/">お金の管理</a><span class="category-list-count">9</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/お金の管理/マイホーム/">マイホーム</a><span class="category-list-count">2</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/お金の管理/節約ワザ/">節約ワザ</a><span class="category-list-count">1</span></li></ul></li><li class="category-list-item"><a class="category-list-link" href="/categories/ブログについて/">ブログについて</a><span class="category-list-count">2</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/マイホーム/">マイホーム</a><span class="category-list-count">10</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/仕事/">仕事</a><span class="category-list-count">2</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/妊活-不妊治療/">妊活/不妊治療</a><span class="category-list-count">4</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/子育て/">子育て</a><span class="category-list-count">5</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/子育て/家電/">家電</a><span class="category-list-count">1</span></li></ul></li><li class="category-list-item"><a class="category-list-link" href="/categories/家電/">家電</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/投資／ふるさと納税/">投資／ふるさと納税</a><span class="category-list-count">9</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/投資／ふるさと納税/節約ワザ/">節約ワザ</a><span class="category-list-count">2</span></li></ul></li><li class="category-list-item"><a class="category-list-link" href="/categories/料理/">料理</a><span class="category-list-count">9</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/料理/日記/">日記</a><span class="category-list-count">3</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/料理/時短ワザ/">時短ワザ</a><span class="category-list-count">2</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/料理/時短ワザ/節約ワザ/">節約ワザ</a><span class="category-list-count">1</span></li></ul></li><li class="category-list-item"><a class="category-list-link" href="/categories/料理/節約ワザ/">節約ワザ</a><span class="category-list-count">3</span></li></ul></li><li class="category-list-item"><a class="category-list-link" href="/categories/日記/">日記</a><span class="category-list-count">9</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/日記/節約ワザ/">節約ワザ</a><span class="category-list-count">1</span></li></ul></li><li class="category-list-item"><a class="category-list-link" href="/categories/時短ワザ/">時短ワザ</a><span class="category-list-count">12</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/時短ワザ/節約ワザ/">節約ワザ</a><span class="category-list-count">1</span></li></ul></li><li class="category-list-item"><a class="category-list-link" href="/categories/生活の知恵/">生活の知恵</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/節約ワザ/">節約ワザ</a><span class="category-list-count">7</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/読書ログ/">読書ログ</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/音楽/">音楽</a><span class="category-list-count">3</span></li></ul>
     </div>
   </div>
 
 
   
     
-
-  
-    
-  
-    
   <div class="widget-wrap">
     <h3 class="widget-title">アーカイブ</h3>
     <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/04/">2019/04</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/03/">2019/03</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/09/">2018/09</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/07/">2018/07</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/08/">2017/08</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/02/">2017/02</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/01/">2017/01</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/12/">2016/12</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/10/">2016/10</a><span class="archive-list-count">3</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/09/">2016/09</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/08/">2016/08</a><span class="archive-list-count">7</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/06/">2016/06</a><span class="archive-list-count">7</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/05/">2016/05</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/03/">2016/03</a><span class="archive-list-count">3</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/02/">2016/02</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/01/">2016/01</a><span class="archive-list-count">5</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/12/">2015/12</a><span class="archive-list-count">6</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/11/">2015/11</a><span class="archive-list-count">5</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/10/">2015/10</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/09/">2015/09</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/06/">2015/06</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/04/">2015/04</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/03/">2015/03</a><span class="archive-list-count">3</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/02/">2015/02</a><span class="archive-list-count">3</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/01/">2015/01</a><span class="archive-list-count">12</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/12/">2014/12</a><span class="archive-list-count">20</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/11/">2014/11</a><span class="archive-list-count">17</span></li></ul>
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/04/">2019/04</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/03/">2019/03</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/09/">2018/09</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/07/">2018/07</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/08/">2017/08</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/02/">2017/02</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/01/">2017/01</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/12/">2016/12</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/10/">2016/10</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/09/">2016/09</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/08/">2016/08</a><span class="archive-list-count">7</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/06/">2016/06</a><span class="archive-list-count">7</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/05/">2016/05</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/03/">2016/03</a><span class="archive-list-count">3</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/02/">2016/02</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/01/">2016/01</a><span class="archive-list-count">5</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/12/">2015/12</a><span class="archive-list-count">6</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/11/">2015/11</a><span class="archive-list-count">5</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/10/">2015/10</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/09/">2015/09</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/06/">2015/06</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/04/">2015/04</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/03/">2015/03</a><span class="archive-list-count">3</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/02/">2015/02</a><span class="archive-list-count">3</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/01/">2015/01</a><span class="archive-list-count">12</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/12/">2014/12</a><span class="archive-list-count">20</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/11/">2014/11</a><span class="archive-list-count">17</span></li></ul>
     </div>
   </div>
 
@@ -652,7 +669,9 @@ ga('send', 'pageview');
   
     <a href="/" class="mobile-nav-link">Home</a>
   
-    <a href="/archives" class="mobile-nav-link">Archives</a>
+    <a href="/archives" class="mobile-nav-link">記事一覧</a>
+  
+    <a href="/about-this-page" class="mobile-nav-link">このブログについて</a>
   
 </nav>
     
