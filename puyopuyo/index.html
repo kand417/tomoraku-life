@@ -1,212 +1,25 @@
 <!DOCTYPE html>
 <html>
-<head><meta name="generator" content="Hexo 3.8.0">
-  <meta charset="utf-8">
-  
-<!-- Google Analytics -->
-<script type="text/javascript">
-(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+<head>
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" />
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<link rel="apple-touch-icon" href="./image/icon.png" />
+<meta charset="utf-8" />
+<title>PUYO</title>
+<script type="text/javascript" src="./puyopuyo.js"></script>
+<script language="JavaScript">
+<!--
+//setTimeout("scrollTo(0,1)", 50);
 
-ga('create', 'UA-2714410-4', 'auto');
-ga('send', 'pageview');
-
+function load() {
+  puyoInit();
+  puyoStart();
+}
+//-->
 </script>
-<!-- End Google Analytics -->
-
-
-  
-  <title> ぷよぷよ (ブラウザゲーム)		 | 共働き夫婦の楽々ライフ♪</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="私がJavaScriptで作成したぷよぷよです。 ブラウザ上で遊べます。 暇つぶしにどうぞ。 Click to start 遊び方#A 左へ移動 D 右へ移動 S ドロップ W, K 右回転 J 左へ移動 ぷよぷよテトリス 特典なし 新品価格￥4,048から(2014/12/20 18:26時点)">
-<meta property="og:type" content="website">
-<meta property="og:title" content=" ぷよぷよ (ブラウザゲーム)		">
-<meta property="og:url" content="https://tomoraku-life.com/puyopuyo/index.html">
-<meta property="og:site_name" content="共働き夫婦の楽々ライフ♪">
-<meta property="og:description" content="私がJavaScriptで作成したぷよぷよです。 ブラウザ上で遊べます。 暇つぶしにどうぞ。 Click to start 遊び方#A 左へ移動 D 右へ移動 S ドロップ W, K 右回転 J 左へ移動 ぷよぷよテトリス 特典なし 新品価格￥4,048から(2014/12/20 18:26時点)">
-<meta property="og:locale" content="ja">
-<meta property="og:image" content="http://ecx.images-amazon.com/images/I/51bt2KAzvlL._SS100_.jpg">
-<meta property="og:image" content="http://www18.a8.net/0.gif?a8mat=203SZT+8WWNUA+249K+BWGDT">
-<meta property="og:updated_time" content="2019-04-01T14:26:48.395Z">
-<meta name="twitter:card" content="summary">
-<meta name="twitter:title" content=" ぷよぷよ (ブラウザゲーム)		">
-<meta name="twitter:description" content="私がJavaScriptで作成したぷよぷよです。 ブラウザ上で遊べます。 暇つぶしにどうぞ。 Click to start 遊び方#A 左へ移動 D 右へ移動 S ドロップ W, K 右回転 J 左へ移動 ぷよぷよテトリス 特典なし 新品価格￥4,048から(2014/12/20 18:26時点)">
-<meta name="twitter:image" content="http://ecx.images-amazon.com/images/I/51bt2KAzvlL._SS100_.jpg">
-<meta name="twitter:creator" content="@tomoraku_life">
-  
-    <link rel="alternate" href="/atom.xml" title="共働き夫婦の楽々ライフ♪" type="application/atom+xml">
-  
-  
-    <link rel="icon" href="/images/favicon.ico">
-  
-  
-    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
-  
-  <link rel="stylesheet" href="/css/style.css">
-
-  <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-  <script>
-     (adsbygoogle = window.adsbygoogle || []).push({
-          google_ad_client: "ca-pub-7705145221063766",
-          enable_page_level_ads: true
-     });
-  </script>
 </head>
-</html>
-<body>
-  <div id="container">
-    <div id="wrap">
-      <header id="header">
-  <div id="banner"></div>
-  <div id="header-outer" class="outer">
-    <div id="header-title" class="inner">
-      <h1 id="logo-wrap">
-        <a href="/" id="logo">共働き夫婦の楽々ライフ♪</a>
-      </h1>
-      
-        <h2 id="subtitle-wrap">
-          <a href="/" id="subtitle">現代を生きる多忙な共働き世帯が、いかに楽して楽しく生活できるかを考えるブログです</a>
-        </h2>
-      
-    </div>
-    <div id="header-inner" class="inner">
-      <nav id="main-nav">
-        <a id="main-nav-toggle" class="nav-icon"></a>
-        
-          <a class="main-nav-link" href="/">Home</a>
-        
-          <a class="main-nav-link" href="/archives">記事一覧</a>
-        
-          <a class="main-nav-link" href="/about-this-page">このブログについて</a>
-        
-      </nav>
-      <nav id="sub-nav">
-        
-          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSSフィード"></a>
-        
-        <a id="nav-search-btn" class="nav-icon" title="検索"></a>
-      </nav>
-      <div id="search-form-wrap">
-        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="https://tomoraku-life.com"></form>
-      </div>
-    </div>
-  </div>
-</header>
-      <div class="outer">
-        <section id="main"><article id="page-" class="article article-type-page" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/puyopuyo/index.html" class="article-date">
-  <time datetime="2014-12-20T09:08:49.000Z" itemprop="datePublished">2014-12-20</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 class="article-title" itemprop="name">
-       ぷよぷよ (ブラウザゲーム)		
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>私がJavaScriptで作成したぷよぷよです。 ブラウザ上で遊べます。 暇つぶしにどうぞ。</p>
-<p>Click to start</p>
-<h3><span id="you-bifang">遊び方</span><a href="#you-bifang" class="header-anchor">#</a></h3><p>A</p>
-<p>左へ移動</p>
-<p>D</p>
-<p>右へ移動</p>
-<p>S</p>
-<p>ドロップ</p>
-<p>W, K</p>
-<p>右回転</p>
-<p>J</p>
-<p>左へ移動</p>
-<p><a href="http://px.a8.net/svt/ejp?a8mat=203SZT+8WWNUA+249K+BWGDT&amp;a8ejpredirect=http%3A%2F%2Fwww.amazon.co.jp%2Fdp%2FB00I2EM7Q6%2F%3Ftag%3Da8-affi-102970-22" target="_blank" rel="noopener">ぷよぷよテトリス 特典なし</a></p>
-<p>新品価格<br>￥4,048から<br>(2014/12/20 18:26時点)</p>
-<p><a href="http://px.a8.net/svt/ejp?a8mat=203SZT+8WWNUA+249K+BWGDT&amp;a8ejpredirect=http%3A%2F%2Fwww.amazon.co.jp%2Fdp%2FB00I2EM7Q6%2F%3Ftag%3Da8-affi-102970-22" target="_blank" rel="noopener"><img src="http://ecx.images-amazon.com/images/I/51bt2KAzvlL._SS100_.jpg" alt></a></p>
-<p><img src="http://www18.a8.net/0.gif?a8mat=203SZT+8WWNUA+249K+BWGDT" alt></p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="https://tomoraku-life.com/puyopuyo/index.html" data-id="cjuttiihw0003rcvncu6s2n9f" class="article-share-link">共有</a>
-      
-      
-    </footer>
-  </div>
-  
-    
-  
-</article>
-
-</section>
-        
-      </div>
-      <footer id="footer">
-  
-    <aside id="sidebar" class="outer">
-  
-    <div class="widget-wrap">
-    <h3 class="widget-title">自己紹介</h3>
-    <div class="widget">
-      <img src="/images/2019/03/C92253DC-7554-4AC7-8D14-F6F61D30DC08.png" width="100" height="100" align="left">
-      コマです。自称、共働き楽らくブロガーです。妻と子供と３人で暮らしており、日々、「いかに楽して」「いかに楽しく」生活できるか（＝楽らくライフ）を考えています。
-      その他、ITエンジニア、アップル信者、ギタリストという側面ももっています。
-    </div>
-</div>
-  
-    <div class="widget-wrap">
-    <h3 class="widget-title">Twitter</h3>
-    Twitterでブログ更新情報やその他思ったことなどをつぶやいています。お気軽にフォローください♪
-    <a class="twitter-timeline" data-lang="ja" data-width="400" data-height="400" data-theme="dark" href="https://twitter.com/tomoraku_life?ref_src=twsrc%5Etfw">Tweets by tomoraku_life</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-</div>
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">カテゴリ</h3>
-    <div class="widget">
-      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/Mac-iPhone/">Mac/iPhone</a><span class="category-list-count">13</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/Mac-iPhone/節約ワザ/">節約ワザ</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/Mac-iPhone/音楽/">音楽</a><span class="category-list-count">2</span></li></ul></li><li class="category-list-item"><a class="category-list-link" href="/categories/お出かけスポット/">お出かけスポット</a><span class="category-list-count">4</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/お出かけスポット/日記/">日記</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/お出かけスポット/節約ワザ/">節約ワザ</a><span class="category-list-count">1</span></li></ul></li><li class="category-list-item"><a class="category-list-link" href="/categories/お金のこと/">お金のこと</a><span class="category-list-count">7</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/お金の管理/">お金の管理</a><span class="category-list-count">8</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/お金の管理/マイホーム/">マイホーム</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/お金の管理/節約ワザ/">節約ワザ</a><span class="category-list-count">1</span></li></ul></li><li class="category-list-item"><a class="category-list-link" href="/categories/ブログについて/">ブログについて</a><span class="category-list-count">2</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/マイホーム/">マイホーム</a><span class="category-list-count">11</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/仕事/">仕事</a><span class="category-list-count">2</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/妊活-不妊治療/">妊活/不妊治療</a><span class="category-list-count">4</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/子育て/">子育て</a><span class="category-list-count">5</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/子育て/家電/">家電</a><span class="category-list-count">1</span></li></ul></li><li class="category-list-item"><a class="category-list-link" href="/categories/家電/">家電</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/投資／ふるさと納税/">投資／ふるさと納税</a><span class="category-list-count">9</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/投資／ふるさと納税/節約ワザ/">節約ワザ</a><span class="category-list-count">2</span></li></ul></li><li class="category-list-item"><a class="category-list-link" href="/categories/料理/">料理</a><span class="category-list-count">8</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/料理/日記/">日記</a><span class="category-list-count">3</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/料理/時短ワザ/">時短ワザ</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/料理/節約ワザ/">節約ワザ</a><span class="category-list-count">3</span></li></ul></li><li class="category-list-item"><a class="category-list-link" href="/categories/日記/">日記</a><span class="category-list-count">12</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/日記/節約ワザ/">節約ワザ</a><span class="category-list-count">1</span></li></ul></li><li class="category-list-item"><a class="category-list-link" href="/categories/時短ワザ/">時短ワザ</a><span class="category-list-count">13</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/生活の知恵/">生活の知恵</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/節約ワザ/">節約ワザ</a><span class="category-list-count">7</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/読書ログ/">読書ログ</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/音楽/">音楽</a><span class="category-list-count">3</span></li></ul>
-    </div>
-  </div>
-
-
-  
-</aside>
-  
-  <div class="outer">
-    <div id="footer-info" class="inner">
-      &copy; 2019 共働き夫婦の楽々ライフ♪
-    </div>
-  </div>
-</footer>
-    </div>
-    <nav id="mobile-nav">
-  
-    <a href="/" class="mobile-nav-link">Home</a>
-  
-    <a href="/archives" class="mobile-nav-link">記事一覧</a>
-  
-    <a href="/about-this-page" class="mobile-nav-link">このブログについて</a>
-  
-</nav>
-    
-
-<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
-
-
-
-<script src="/js/script.js"></script>
-
-
-
-  </div>
+<body onLoad="load()" ontouchmove="event.preventDefault()">
+<div id="puyo"></div>
 </body>
 </html>
