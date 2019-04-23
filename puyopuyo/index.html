@@ -5,6 +5,7 @@
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black">
 <link rel="apple-touch-icon" href="./image/icon.png" />
+<link rel="stylesheet" type="text/css" href="puyopuyo.css">
 <meta charset="utf-8" />
 <title>PUYO</title>
 <script type="text/javascript" src="./puyopuyo.js"></script>
@@ -19,7 +20,7 @@ function load() {
 //-->
 </script>
 </head>
-<body onLoad="load()" ontouchmove="event.preventDefault()">
+<body class="fixed" onLoad="load()" ontouchmove="event.preventDefault()">
 <div id="puyo"></div>
 </body>
 </html>
