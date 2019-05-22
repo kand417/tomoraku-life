@@ -1024,19 +1024,16 @@ blockquote cite {
   font-size: 0.9em;
 }
 .article-header h1 {
-  position: relative;
-  background: #dfefff;
-  -webkit-box-shadow: 0px 0px 0px 5px #dfefff;
-  box-shadow: 0px 0px 0px 5px #dfefff;
-  border: dashed 2px #fff;
-  padding: 0.2em 0.5em;
-  color: #454545;
+  color: #000; /*文字色*/
+  padding: 0.5em 0; /*上下の余白*/
+  border-top: solid 3px #000; /*上線*/
+  border-bottom: solid 3px #000; /*下線*/
 }
 .article-entry h2 {
   margin-top: 40px;
   padding: 0.5em; /*文字周りの余白*/
   color: #494949; /*文字色*/
-  background: #dfefff; /*背景色*/
+  background: #fff; /*背景色*/
   border-left: solid 5px #44a1ff; /*左線（実線 太さ 色）*/
 }
 .article-entry h2 .header-anchor {
