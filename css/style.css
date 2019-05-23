@@ -591,10 +591,12 @@ a.article-title:hover {
 }
 .article-entry img,
 .article-entry video {
-  max-width: 100%;
+  max-width: 80%;
   height: auto;
   display: block;
   margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 .article-entry iframe {
   border: none;
