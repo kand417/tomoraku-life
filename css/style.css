@@ -976,7 +976,25 @@ a.article-title:hover {
   -ms-transition: 0.4s;
   transition: 0.4s;
   margin-top: 12px;
-  margin-right: 2px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.hexo-tag-amazon .hexo-tag-amazon-rakuten {
+  text-align: center;
+  background: #af0003;
+  display: inline-block;
+  padding: 0.3em 1em;
+  text-decoration: none;
+  color: #fff;
+  border: solid 2px #af0003;
+  border-radius: 3px;
+  -webkit-transition: 0.4s;
+  -moz-transition: 0.4s;
+  -ms-transition: 0.4s;
+  transition: 0.4s;
+  margin-top: 12px;
+  margin-right: 10px;
+  margin-left: 10px;
 }
 blockquote {
   position: relative;
