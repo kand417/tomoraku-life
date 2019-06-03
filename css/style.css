@@ -1467,15 +1467,25 @@ pre .javascript .function {
 .widget-wrap {
   margin: 50px 0;
 }
+.widget-title {
+  padding: 0.5em 0.75em;
+  background-color: #f6f6f6;
+}
 .widget {
   color: #777;
   text-shadow: 0 1px #fff;
   background: #fff;
-  -webkit-box-shadow: 0 -1px 4px #ccc inset;
-  box-shadow: 0 -1px 4px #ccc inset;
-  border: 1px solid #ccc;
+  -webkit-box-shadow: 0 -1px 4px #fff inset;
+  box-shadow: 0 -1px 4px #fff inset;
+  border: 1px solid #fff;
   padding: 15px;
   border-radius: 3px;
+/*
+  ul, ol, dl
+    ul, ol, dl
+      margin-left: 15px
+      list-style: disc
+  */
 }
 .widget a {
   color: #258fb8;
@@ -1484,17 +1494,22 @@ pre .javascript .function {
 .widget a:hover {
   text-decoration: underline;
 }
-.widget ul ul,
-.widget ol ul,
-.widget dl ul,
-.widget ul ol,
-.widget ol ol,
-.widget dl ol,
-.widget ul dl,
-.widget ol dl,
-.widget dl dl {
-  margin-left: 15px;
-  list-style: disc;
+.widget ul {
+  padding: 0em 1em 0.5em 2.3em;
+  position: relative;
+}
+.widget ul li {
+  line-height: 1.5;
+  padding: 0.5em 0;
+  list-style-type: none !important;
+}
+.widget ul li:before {
+  font-family: "FontAwesome";
+  content: "\f075"; /*アイコンの種類*/
+  position: absolute;
+  left: 0.2em;
+/*左端からのアイコンまで*/
+  color: #ccc; /*アイコン色*/
 }
 .widget {
   line-height: 1.6em;
