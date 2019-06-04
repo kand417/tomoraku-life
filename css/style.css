@@ -308,7 +308,7 @@ body {
   font-weight: bold;
 }
 #header {
-  height: 150px;
+  height: 170px;
   position: relative;
   border-bottom: 1px solid #ddd;
 }
@@ -346,11 +346,11 @@ body {
 }
 #header-title {
   text-align: center;
-  height: 28px;
+  height: 10px;
   position: absolute;
   top: 40%;
   left: 0;
-  margin-top: -14px;
+  margin-top: -5px;
 }
 #logo,
 #subtitle {
@@ -360,8 +360,8 @@ body {
   text-shadow: 0 1px 4px rgba(0,0,0,0.3);
 }
 #logo {
-  font-size: 28px;
-  line-height: 28px;
+  font-size: 10px;
+  line-height: 10px;
   letter-spacing: 2px;
 }
 #subtitle {
@@ -526,7 +526,7 @@ body {
 }
 .article-title {
   text-decoration: none;
-  font-size: 2em;
+  font-size: 1.5em;
   font-weight: bold;
   color: #555;
   line-height: 1.1em;
