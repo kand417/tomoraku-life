@@ -140,6 +140,11 @@ body {
 .outer:after {
   clear: both;
 }
+@media screen and (max-width: 479px) {
+  .outer {
+    padding: 0;
+  }
+}
 .inner {
   display: inline;
   float: left;
