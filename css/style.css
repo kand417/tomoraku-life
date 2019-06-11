@@ -1044,12 +1044,13 @@ blockquote cite {
   font-size: 0.9em;
 }
 .article-header h1 {
+  font-size: 18px;
   color: #000; /*文字色*/
   padding: 0.5em 0; /*上下の余白*/
-  border-top: solid 3px #000; /*上線*/
   border-bottom: solid 3px #000; /*下線*/
 }
 .article-entry h2 {
+  font-size: 18px;
   margin-top: 40px;
   padding: 0.5em; /*文字周りの余白*/
   color: #494949; /*文字色*/
@@ -1060,6 +1061,7 @@ blockquote cite {
   display: none;
 }
 .article-entry h3 {
+  font-size: 18px;
   position: relative;
   padding-left: 1.2em; /*アイコン分のスペース*/
   line-height: 1.4;
@@ -1177,12 +1179,12 @@ blockquote cite {
 }
 #comments {
   background: #fff;
-  -webkit-box-shadow: 1px 2px 3px #ddd;
-  box-shadow: 1px 2px 3px #ddd;
+  -webkit-box-shadow: 0px 0px 0px #ddd;
+  box-shadow: 0px 0px 0px #ddd;
   padding: 20px;
-  border: 1px solid #ddd;
+  border: 1px 1px 1px 1px solid #ddd;
   border-radius: 3px;
-  margin: 50px 0;
+  margin: 0;
 }
 #comments a {
   color: #258fb8;
