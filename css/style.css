@@ -590,6 +590,21 @@ a.article-title:hover {
   margin-top: 10px;
   margin-bottom: 10px;
 }
+.article-entry img.eyecatch {
+  width: 100%;
+  max-width: 100%;
+  object-fit: cover;
+}
+@media screen and (min-width: 768px) {
+  .article-entry img.eyecatch {
+    height: 300px;
+  }
+}
+@media screen and (max-width: 479px) {
+  .article-entry img.eyecatch {
+    height: 150px;
+  }
+}
 .article-entry iframe {
   border: none;
 }
@@ -1106,7 +1121,7 @@ blockquote cite {
 /* リストの記号を付けない場合は   
      list-style: outside none none !important;
     */
-  line-height: 0.8em;
+  line-height: 1em;
 }
 .talk {
   width: 100%;
@@ -1484,6 +1499,26 @@ height:40px {
   line-height: 1em;
   margin-bottom: 0.5em;
   display: block;
+  width: 100px;
+}
+.archive-article-date time:before {
+  font-family: FontAwesome;
+  content: "\f017";
+  padding-right: 5px;
+}
+.archive-article-categories {
+  color: #999;
+  text-decoration: none;
+  font-size: 0.85em;
+  line-height: 1em;
+  margin-bottom: 0.5em;
+  display: block;
+  text-align: right;
+}
+.archive-article-categories a:before {
+  font-family: FontAwesome;
+  content: "\f02c";
+  padding-right: 5px;
 }
 #page-nav {
   margin: 50px auto;
