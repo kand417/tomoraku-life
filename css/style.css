@@ -597,7 +597,7 @@ a.article-title:hover {
 }
 @media screen and (min-width: 768px) {
   .article-entry img.eyecatch {
-    height: 300px;
+    height: 350px;
   }
 }
 @media screen and (max-width: 479px) {
