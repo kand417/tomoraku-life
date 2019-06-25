@@ -1085,10 +1085,10 @@ blockquote cite {
   color: #5ab9ff; /*アイコン色*/
 }
 .article-entry strong {
-  background: rgba(0,0,0,0) -webkit-linear-gradient(transparent 80%, #ffff7f 0%) repeat scroll 0 0;
-  background: rgba(0,0,0,0) -moz-linear-gradient(transparent 80%, #ffff7f 0%) repeat scroll 0 0;
-  background: rgba(0,0,0,0) -ms-linear-gradient(transparent 80%, #ffff7f 0%) repeat scroll 0 0;
-  background: rgba(0,0,0,0) linear-gradient(transparent 80%, #ffff7f 0%) repeat scroll 0 0;
+  background: -webkit-linear-gradient(transparent 75%, #ffdc00 75%);
+  background: -moz-linear-gradient(transparent 75%, #ffdc00 75%);
+  background: -ms-linear-gradient(transparent 75%, #ffdc00 75%);
+  background: linear-gradient(transparent 75%, #ffdc00 75%);
 }
 .toc {
   background: #f9f9f9 none repeat scroll 0 0;
@@ -1493,13 +1493,19 @@ height:40px {
   margin-top: 1em;
 }
 .archive-article-date {
+  font-family: 'Concert One';
   color: #999;
   text-decoration: none;
   font-size: 0.85em;
   line-height: 1em;
   margin-bottom: 0.5em;
   display: block;
-  width: 100px;
+  font-feature-settings: "palt" 1;
+}
+@media screen and (max-width: 479px) {
+  .archive-article-date {
+    font-size: 1em;
+  }
 }
 .archive-article-date time:before {
   font-family: FontAwesome;
@@ -1513,12 +1519,18 @@ height:40px {
   line-height: 1em;
   margin-bottom: 0.5em;
   display: block;
-  text-align: right;
+  width: 150px;
+  font-feature-settings: "palt" 1;
+}
+@media screen and (max-width: 479px) {
+  .archive-article-categories {
+    font-size: 1em;
+  }
 }
 .archive-article-categories a:before {
   font-family: FontAwesome;
   content: "\f02c";
-  padding-right: 5px;
+  padding-right: 2px;
 }
 #page-nav {
   margin: 50px auto;
