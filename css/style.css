@@ -568,20 +568,32 @@ body {
   clear: both;
 }
 .article-date {
-  float: left;
+  color: #888;
+  position: relative;
+  right: 0;
+  font-family: 'Concert One';
+  padding: 10px 0 0 0;
+  margin: 0;
+  text-align: right;
+}
+.article-date time.published:before {
+  font-family: FontAwesome;
+  content: "\f044";
+  padding-right: 5px;
+}
+.article-date time.modified:before {
+  font-family: FontAwesome;
+  content: "\f021";
+  padding-right: 5px;
 }
 .article-category {
   float: left;
   line-height: 1em;
   color: #ccc;
   text-shadow: 0 1px #fff;
-  margin-left: 8px;
 }
 .article-category:before {
   content: "\2022";
-}
-.article-category-link {
-  margin: 0 12px 1em;
 }
 .article-header {
   padding: 20px 20px 0;
@@ -1457,6 +1469,40 @@ blockquote cite {
 }
 .shareList__link.icon-line:hover::before {
   color: #1dcd00;
+}
+.breadcrumb {
+  margin-left: 0;
+  padding-left: 0;
+}
+.breadcrumb li {
+  display: inline;
+/*横に並ぶように*/
+  list-style: none;
+  font-weight: bold; /*太字*/
+}
+.breadcrumb li:after {
+/* >を表示*/
+  content: '>';
+  padding: 0 3px;
+  color: #555;
+}
+.breadcrumb li:last-child:after {
+  content: '';
+}
+.breadcrumb li a {
+  text-decoration: none;
+  color: #808080;
+}
+.breadcrumb li:first-child a:before {
+/*家アイコン*/
+  font-family: FontAwesome;
+  content: '\f015';
+  font-weight: normal;
+  font-size: 1.1em;
+  color: #2e7fea;
+}
+.breadcrumb li a:hover {
+  text-decoration: underline;
 }
 #comments {
   background: #fff;
