@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<head><meta name="generator" content="Hexo 3.8.0">
+<head><meta name="generator" content="Hexo 3.9.0">
   <meta charset="utf-8">
   
 <!-- Google Analytics -->
@@ -11,6 +11,7 @@ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
 ga('create', 'UA-2714410-4', 'auto');
+ga('require', 'linkid', 'linkid.js');
 ga('send', 'pageview');
 
 </script>
@@ -21,13 +22,13 @@ ga('send', 'pageview');
   <title>Unity 5 でゲームを作ってみる (1日目) | 共働き夫婦の楽らくライフ</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   
-    <meta name="description" content="言わずと知れたゲームエンジンである Unity ですが、その最新版である Unity 5 が 2015/3/4にリリースされました！ 　　Unity、ゲームエンジンUnityの最新バージョン Unity 5を公開（外部サイト） これを機に、何を隠そう Unity をまだほとんどいじったことのない完全初心者の私が何か簡単でもいいからゲームを作ってみようと考えた次第であります。 これから Unity">
+    <meta name="description" content="unity 言わずと知れたゲームエンジンである Unity ですが、その最新版である Unity 5 が 2015/3/4にリリースされました！ 　　Unity、ゲームエンジンUnityの最新バージョン Unity 5を公開（外部サイト） これを機に、何を隠そう Unity をまだほとんどいじったことのない完全初心者の私が何か簡単でもいいからゲームを作ってみようと考えた次第であります。 これから">
 <meta name="keywords" content="共働き,共働き夫婦,子育て,育休,育児休暇,育児休業,育児休職,株主優待,新築">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Unity 5 でゲームを作ってみる (1日目)">
 <meta property="og:url" content="https://tomoraku-life.com/unity-5-creating-game-part1/index.html">
 <meta property="og:site_name" content="共働き夫婦の楽らくライフ">
-<meta property="og:description" content="言わずと知れたゲームエンジンである Unity ですが、その最新版である Unity 5 が 2015/3/4にリリースされました！ 　　Unity、ゲームエンジンUnityの最新バージョン Unity 5を公開（外部サイト） これを機に、何を隠そう Unity をまだほとんどいじったことのない完全初心者の私が何か簡単でもいいからゲームを作ってみようと考えた次第であります。 これから Unity">
+<meta property="og:description" content="unity 言わずと知れたゲームエンジンである Unity ですが、その最新版である Unity 5 が 2015/3/4にリリースされました！ 　　Unity、ゲームエンジンUnityの最新バージョン Unity 5を公開（外部サイト） これを機に、何を隠そう Unity をまだほとんどいじったことのない完全初心者の私が何か簡単でもいいからゲームを作ってみようと考えた次第であります。 これから">
 <meta property="og:locale" content="ja">
 <meta property="og:image" content="https://tomoraku-life.com/images/2015/03/unity-300x225.jpg">
 <meta property="og:image" content="https://tomoraku-life.com/images/2015/03/Unity_App-300x164.png">
@@ -35,7 +36,7 @@ ga('send', 'pageview');
 <meta property="og:updated_time" content="2019-06-22T14:03:49.736Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Unity 5 でゲームを作ってみる (1日目)">
-<meta name="twitter:description" content="言わずと知れたゲームエンジンである Unity ですが、その最新版である Unity 5 が 2015/3/4にリリースされました！ 　　Unity、ゲームエンジンUnityの最新バージョン Unity 5を公開（外部サイト） これを機に、何を隠そう Unity をまだほとんどいじったことのない完全初心者の私が何か簡単でもいいからゲームを作ってみようと考えた次第であります。 これから Unity">
+<meta name="twitter:description" content="unity 言わずと知れたゲームエンジンである Unity ですが、その最新版である Unity 5 が 2015/3/4にリリースされました！ 　　Unity、ゲームエンジンUnityの最新バージョン Unity 5を公開（外部サイト） これを機に、何を隠そう Unity をまだほとんどいじったことのない完全初心者の私が何か簡単でもいいからゲームを作ってみようと考えた次第であります。 これから">
 <meta name="twitter:image" content="https://tomoraku-life.com/images/2015/03/unity-300x225.jpg">
 <meta name="twitter:creator" content="@tomoraku_life">
   
@@ -137,7 +138,7 @@ ga('send', 'pageview');
         </a>
         </li>
         <li itemscope="itemscope" itemtype="http://data-vocabulary.org/Breadcrumb">
-        <a href itemprop="url">
+        <a href="" itemprop="url">
          <span itemprop="title"></span>
         </a>
         </li>
@@ -163,8 +164,8 @@ ga('send', 'pageview');
       <div class="sns_buttons">
     
 <ul class="shareList">
-  <li class="shareList__item"><a class="shareList__link icon-twitter" href="https://twitter.com/intent/tweet?text=Unity 5 でゲームを作ってみる (1日目) https://tomoraku-life.com/unity-5-creating-game-part1/index.html" onclick="window.open(encodeURI(decodeURI(this.href)),'twwindow','width=550, height=450, personalbar=0, toolbar=0, scrollbars=1'); return false;" target="_blank" title="Twitter"></a></li>
-  <li class="shareList__item"><a class="shareList__link icon-facebook" href="http://www.facebook.com/share.php?u=https://tomoraku-life.com/unity-5-creating-game-part1/index.html" onclick="window.open(encodeURI(decodeURI(this.href)),'fbwindow','width=550, height=450, personalbar=0, toolbar=0, scrollbars=1'); return false;" target="_blank" title="Facebook"></a></li>
+  <li class="shareList__item"><a class="shareList__link icon-twitter" href="https://twitter.com/intent/tweet?text=Unity 5 でゲームを作ってみる (1日目) https://tomoraku-life.com/unity-5-creating-game-part1/index.html" onClick="window.open(encodeURI(decodeURI(this.href)),'twwindow','width=550, height=450, personalbar=0, toolbar=0, scrollbars=1'); return false;" target="_blank" title="Twitter"></a></li>
+  <li class="shareList__item"><a class="shareList__link icon-facebook" href="http://www.facebook.com/share.php?u=https://tomoraku-life.com/unity-5-creating-game-part1/index.html" onClick="window.open(encodeURI(decodeURI(this.href)),'fbwindow','width=550, height=450, personalbar=0, toolbar=0, scrollbars=1'); return false;" target="_blank" title="Facebook"></a></li>
   <li class="shareList__item"><a class="shareList__link icon-hatebu" href="http://b.hatena.ne.jp/add?mode=confirm&url=https://tomoraku-life.com/unity-5-creating-game-part1/index.html&title=Unity 5 でゲームを作ってみる (1日目)" target="_blank" title="はてなブックマーク"></a></li>
   <li class="shareList__item"><a class="shareList__link icon-line" href="http://line.me/R/msg/text?Unity 5 でゲームを作ってみる (1日目) https://tomoraku-life.com/unity-5-creating-game-part1/index.html" target="_blank" title="LINE"></a></li>
 </ul>
@@ -174,11 +175,11 @@ ga('send', 'pageview');
 
     <div class="article-entry" itemprop="articleBody">
       
-        <p><a href="/images/2015/03/unity.jpg"><img src="/images/2015/03/unity-300x225.jpg" alt="unity"></a> 言わずと知れたゲームエンジンである Unity ですが、その最新版である Unity 5 が 2015/3/4にリリースされました！ 　　<a href="http://japan.unity3d.com/blog/press/20150304" target="_blank" rel="noopener">Unity、ゲームエンジンUnityの最新バージョン Unity 5を公開（外部サイト）</a> これを機に、何を隠そう Unity をまだほとんどいじったことのない完全初心者の私が何か簡単でもいいからゲームを作ってみようと考えた次第であります。 これから Unity を始める人に参考になれば！（と言っても私もこれから学ぶのですが・・・一緒に頑張りましょう！） [toc]</p>
+        <p><a href="/images/2015/03/unity.jpg"><img src="/images/2015/03/unity-300x225.jpg" alt="unity"><span class="image-caption">unity</span></a> 言わずと知れたゲームエンジンである Unity ですが、その最新版である Unity 5 が 2015/3/4にリリースされました！ 　　<a href="http://japan.unity3d.com/blog/press/20150304" target="_blank" rel="noopener">Unity、ゲームエンジンUnityの最新バージョン Unity 5を公開（外部サイト）</a> これを機に、何を隠そう Unity をまだほとんどいじったことのない完全初心者の私が何か簡単でもいいからゲームを作ってみようと考えた次第であります。 これから Unity を始める人に参考になれば！（と言っても私もこれから学ぶのですが・・・一緒に頑張りましょう！） [toc]</p>
 <h2><span id="unitytutedonnan">Unityってどんなん？</span><a href="#unitytutedonnan" class="header-anchor">#</a></h2><p>自分のオリジナルゲームを作り始める前に Unity を使うとどんなゲームが作れるのかを確認しておきましょう。自作 Unity ゲームを公開するサイトがあるのでいくつかいじってみましょう。 　　<a href="http://unitygameuploader.jpn.org/" target="_blank" rel="noopener">UnityGameUploader（外部サイト）</a> ぶっちゃけ<strong>クソゲーばっか</strong>ですね！（爆）いいんです、私もこれからクソゲーを作るつもりなんですから（笑）</p>
 <h2><span id="ojin-kakaranaino">お金かからないの？</span><a href="#ojin-kakaranaino" class="header-anchor">#</a></h2><p>初めて使うときの素朴な疑問ですね。 <strong>全てが無料ではないです。</strong>ただ、無料の範囲でも十分過ぎるほど色々できます。趣味の範囲ならばお金は全く必要ありません。 チームで開発したり、チューニングしたり、サポートを受けたり、バグを直してもらったりするのは有料でとなります。趣味レベルでは要りませんね。また、品質の良い素材の多くは有料だったりします。</p>
 <h2><span id="insutorusiyou">インストールしよう</span><a href="#insutorusiyou" class="header-anchor">#</a></h2><p>何はなくともインストールからですね。<a href="https://unity3d.com/jp/5" target="_blank" rel="noopener">こちら（公式サイト）</a>から入手しましょう。インストーラは軽量ですが、インストール開始から2GBほどのファイルのダウンロードが始まるので１時間ほどかかります。インストールが始まれば、基本ほっとくだけなので簡単です。</p>
-<h2><span id="qi-dong-siyou">起動しよう</span><a href="#qi-dong-siyou" class="header-anchor">#</a></h2><p>インストールが終わったら　アプリケーション　に Unity が入ってるのでこれを起動すればOK！あ、ちなみに私はMacユーザーですがWindowsでも大体同じですよね！（多分） <a href="/images/2015/03/Unity_App.png"><img src="/images/2015/03/Unity_App-300x164.png" alt="Unity_App"></a> スクリーンショットを撮り忘れましたが、途中でユーザアカウントの作成を求められますのでサクッと作りましょう。アカウントは後から素材などをダウンロードするために超重要になってきますのでパスワード忘れないように注意！ 起動が完了すると次のような画面がでてきました。 <a href="/images/2015/03/Unity_5_0_0f4.png"><img src="/images/2015/03/Unity_5_0_0f4-300x189.png" alt="Unity_5_0_0f4"></a> おおおお、、今日はここまで！ こま</p>
+<h2><span id="qi-dong-siyou">起動しよう</span><a href="#qi-dong-siyou" class="header-anchor">#</a></h2><p>インストールが終わったら　アプリケーション　に Unity が入ってるのでこれを起動すればOK！あ、ちなみに私はMacユーザーですがWindowsでも大体同じですよね！（多分） <a href="/images/2015/03/Unity_App.png"><img src="/images/2015/03/Unity_App-300x164.png" alt="Unity_App"><span class="image-caption">Unity_App</span></a> スクリーンショットを撮り忘れましたが、途中でユーザアカウントの作成を求められますのでサクッと作りましょう。アカウントは後から素材などをダウンロードするために超重要になってきますのでパスワード忘れないように注意！ 起動が完了すると次のような画面がでてきました。 <a href="/images/2015/03/Unity_5_0_0f4.png"><img src="/images/2015/03/Unity_5_0_0f4-300x189.png" alt="Unity_5_0_0f4"><span class="image-caption">Unity_5_0_0f4</span></a> おおおお、、今日はここまで！ こま</p>
 
       
     </div>
@@ -189,8 +190,8 @@ ga('send', 'pageview');
       この記事が気に入ったら友達にシェアしよう
     
 <ul class="shareList">
-  <li class="shareList__item"><a class="shareList__link icon-twitter" href="https://twitter.com/intent/tweet?text=Unity 5 でゲームを作ってみる (1日目) https://tomoraku-life.com/unity-5-creating-game-part1/index.html" onclick="window.open(encodeURI(decodeURI(this.href)),'twwindow','width=550, height=450, personalbar=0, toolbar=0, scrollbars=1'); return false;" target="_blank" title="Twitter"></a></li>
-  <li class="shareList__item"><a class="shareList__link icon-facebook" href="http://www.facebook.com/share.php?u=https://tomoraku-life.com/unity-5-creating-game-part1/index.html" onclick="window.open(encodeURI(decodeURI(this.href)),'fbwindow','width=550, height=450, personalbar=0, toolbar=0, scrollbars=1'); return false;" target="_blank" title="Facebook"></a></li>
+  <li class="shareList__item"><a class="shareList__link icon-twitter" href="https://twitter.com/intent/tweet?text=Unity 5 でゲームを作ってみる (1日目) https://tomoraku-life.com/unity-5-creating-game-part1/index.html" onClick="window.open(encodeURI(decodeURI(this.href)),'twwindow','width=550, height=450, personalbar=0, toolbar=0, scrollbars=1'); return false;" target="_blank" title="Twitter"></a></li>
+  <li class="shareList__item"><a class="shareList__link icon-facebook" href="http://www.facebook.com/share.php?u=https://tomoraku-life.com/unity-5-creating-game-part1/index.html" onClick="window.open(encodeURI(decodeURI(this.href)),'fbwindow','width=550, height=450, personalbar=0, toolbar=0, scrollbars=1'); return false;" target="_blank" title="Facebook"></a></li>
   <li class="shareList__item"><a class="shareList__link icon-hatebu" href="http://b.hatena.ne.jp/add?mode=confirm&url=https://tomoraku-life.com/unity-5-creating-game-part1/index.html&title=Unity 5 でゲームを作ってみる (1日目)" target="_blank" title="はてなブックマーク"></a></li>
   <li class="shareList__item"><a class="shareList__link icon-line" href="http://line.me/R/msg/text?Unity 5 でゲームを作ってみる (1日目) https://tomoraku-life.com/unity-5-creating-game-part1/index.html" target="_blank" title="LINE"></a></li>
 </ul>
@@ -219,7 +220,7 @@ ga('send', 'pageview');
   <h3 class="widget-title">自己紹介</h3>
   <div class="widget">
     <div style="text-align: center;">
-      <img src="/images/avatar.png" width="100" height="100">
+      <img src="/images/avatar.png" width="100" height="100" />
       <p>コマ</p>
     </div>
     <p>
@@ -228,7 +229,8 @@ ga('send', 'pageview');
       現在、日本の子育て事情が改善することを願って情報発信をしています。
     </p>
     <div style="text-align: center;">
-      <a href="https://twitter.com/tomoraku_life?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @tomoraku_life</a>
+      <a href="https://twitter.com/tomoraku_life?ref_src=twsrc%5Etfw" class="twitter-follow-button"
+        data-show-count="false">Follow @tomoraku_life</a>
       <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
     </div>
   </div>
@@ -238,7 +240,7 @@ ga('send', 'pageview');
   <div class="widget-wrap">
     <h3 class="widget-title">カテゴリ</h3>
     <div class="widget">
-      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/Mac-iPhone/">Mac/iPhone</a><span class="category-list-count">12</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/お出かけスポット/">お出かけスポット</a><span class="category-list-count">3</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/お金のこと/">お金のこと</a><span class="category-list-count">11</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/らくらく子育て/">らくらく子育て</a><span class="category-list-count">5</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/ブログについて/">ブログについて</a><span class="category-list-count">2</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/プログラミング/">プログラミング</a><span class="category-list-count">3</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/マイホーム/">マイホーム</a><span class="category-list-count">12</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/妊活／不妊治療/">妊活／不妊治療</a><span class="category-list-count">4</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/投資／ふるさと納税/">投資／ふるさと納税</a><span class="category-list-count">9</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/日記/">日記</a><span class="category-list-count">14</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/時短ワザ/">時短ワザ</a><span class="category-list-count">16</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/生活の知恵/">生活の知恵</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/男性の育休ガイド/">男性の育休ガイド</a><span class="category-list-count">6</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/節約ワザ/">節約ワザ</a><span class="category-list-count">13</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/読書ログ/">読書ログ</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/音楽/">音楽</a><span class="category-list-count">5</span></li></ul>
+      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/Mac-iPhone/">Mac/iPhone</a><span class="category-list-count">12</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/お出かけスポット/">お出かけスポット</a><span class="category-list-count">3</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/お金のこと/">お金のこと</a><span class="category-list-count">11</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/らくらく子育て/">らくらく子育て</a><span class="category-list-count">5</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/ブログについて/">ブログについて</a><span class="category-list-count">2</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/プログラミング/">プログラミング</a><span class="category-list-count">3</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/マイホーム/">マイホーム</a><span class="category-list-count">12</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/妊活／不妊治療/">妊活／不妊治療</a><span class="category-list-count">4</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/投資／ふるさと納税/">投資／ふるさと納税</a><span class="category-list-count">9</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/日記/">日記</a><span class="category-list-count">14</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/時短ワザ/">時短ワザ</a><span class="category-list-count">16</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/生活の知恵/">生活の知恵</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/男性の育休ガイド/">男性の育休ガイド</a><span class="category-list-count">7</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/節約ワザ/">節約ワザ</a><span class="category-list-count">13</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/読書ログ/">読書ログ</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/音楽/">音楽</a><span class="category-list-count">5</span></li></ul>
     </div>
   </div>
 

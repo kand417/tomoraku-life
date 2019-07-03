@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<head><meta name="generator" content="Hexo 3.8.0">
+<head><meta name="generator" content="Hexo 3.9.0">
   <meta charset="utf-8">
   
 <!-- Google Analytics -->
@@ -11,6 +11,7 @@ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
 ga('create', 'UA-2714410-4', 'auto');
+ga('require', 'linkid', 'linkid.js');
 ga('send', 'pageview');
 
 </script>
@@ -136,7 +137,7 @@ ga('send', 'pageview');
         </a>
         </li>
         <li itemscope="itemscope" itemtype="http://data-vocabulary.org/Breadcrumb">
-        <a href itemprop="url">
+        <a href="" itemprop="url">
          <span itemprop="title"></span>
         </a>
         </li>
@@ -162,8 +163,8 @@ ga('send', 'pageview');
       <div class="sns_buttons">
     
 <ul class="shareList">
-  <li class="shareList__item"><a class="shareList__link icon-twitter" href="https://twitter.com/intent/tweet?text=Macで鳴っている音をそのまま録音する方法 https://tomoraku-life.com/mac-soundflower/index.html" onclick="window.open(encodeURI(decodeURI(this.href)),'twwindow','width=550, height=450, personalbar=0, toolbar=0, scrollbars=1'); return false;" target="_blank" title="Twitter"></a></li>
-  <li class="shareList__item"><a class="shareList__link icon-facebook" href="http://www.facebook.com/share.php?u=https://tomoraku-life.com/mac-soundflower/index.html" onclick="window.open(encodeURI(decodeURI(this.href)),'fbwindow','width=550, height=450, personalbar=0, toolbar=0, scrollbars=1'); return false;" target="_blank" title="Facebook"></a></li>
+  <li class="shareList__item"><a class="shareList__link icon-twitter" href="https://twitter.com/intent/tweet?text=Macで鳴っている音をそのまま録音する方法 https://tomoraku-life.com/mac-soundflower/index.html" onClick="window.open(encodeURI(decodeURI(this.href)),'twwindow','width=550, height=450, personalbar=0, toolbar=0, scrollbars=1'); return false;" target="_blank" title="Twitter"></a></li>
+  <li class="shareList__item"><a class="shareList__link icon-facebook" href="http://www.facebook.com/share.php?u=https://tomoraku-life.com/mac-soundflower/index.html" onClick="window.open(encodeURI(decodeURI(this.href)),'fbwindow','width=550, height=450, personalbar=0, toolbar=0, scrollbars=1'); return false;" target="_blank" title="Facebook"></a></li>
   <li class="shareList__item"><a class="shareList__link icon-hatebu" href="http://b.hatena.ne.jp/add?mode=confirm&url=https://tomoraku-life.com/mac-soundflower/index.html&title=Macで鳴っている音をそのまま録音する方法" target="_blank" title="はてなブックマーク"></a></li>
   <li class="shareList__item"><a class="shareList__link icon-line" href="http://line.me/R/msg/text?Macで鳴っている音をそのまま録音する方法 https://tomoraku-life.com/mac-soundflower/index.html" target="_blank" title="LINE"></a></li>
 </ul>
@@ -174,8 +175,8 @@ ga('send', 'pageview');
     <div class="article-entry" itemprop="articleBody">
       
         <p>Macで鳴らしている音を録音したくなるってこと、ありますよね。 え、ないって？いや、あるんです。 Macに始めから入っている QuickTime Player でも録音することはできるにはできるんですが、 マイクからの音声入力をどうしてもオフにできず、録音中にマイクの音も一緒に拾ってしまい、これが雑音になってしまうんですね。 なぜ、マイク入力をオフにできないんだか・・・ Macに最初から入っているアプリだけではどうしようもないので、 昔からある定番アプリの Soundflower を使用することで解決できます。</p>
-<h3><span id="soundflower">Soundflower</span><a href="#soundflower" class="header-anchor">#</a></h3><p>Soundflowerは以下の公式Webページから無料でダウンロードできます。 <a href="https://code.google.com/p/soundflower/" target="_blank" rel="noopener">https://code.google.com/p/soundflower/</a> &lt;2016/8/6追記&gt; El Capitanでは2.0b1以降でないと動かないようです。こちらからダウンロードしましょう。 <a href="https://github.com/mattingalls/Soundflower/releases" target="_blank" rel="noopener">https://github.com/mattingalls/Soundflower/releases</a> Soundflower はオーディオのドライバとしてインストールされるので、 インストール後、音声の出力先を ”内蔵スピーカー” から切り替えることで動きます。 音声の出力先を簡単に切り替えるには画面右上のスピーカーのアイコンを option キーを押しながらクリックします。 <a href="/images/2014/11/9e78d1c00645387a937f14ce86da2f34.jpg"><img src="/images/2014/11/9e78d1c00645387a937f14ce86da2f34-300x241.jpg" alt="スクリーンショット_2014_11_18_0_05"></a></p>
-<h3><span id="lu-yin-fang-fa">録音方法</span><a href="#lu-yin-fang-fa" class="header-anchor">#</a></h3><p>QuickTime Player を起動して、「ファイル」→「新規オーディオ収録」を選択します。 あとはソースを Soundflower に切り替えて録音を開始すればOKです。 <a href="/images/2014/11/e80e4f87ee8d1d674e18667f8d79eee7.jpg"><img src="/images/2014/11/e80e4f87ee8d1d674e18667f8d79eee7-300x237.jpg" alt="オーディオ収録"></a> Soundflower を仲介することで下記のように出来る訳ですね。 「録音した音を出すアプリ」→「Soundflower」→「QuickTime Player」 なお、今回 QuickTime Player での録音方法を紹介しましたが、これ以外にも Garageband や Logic などでも可能です。 こま</p>
+<h3><span id="soundflower">Soundflower</span><a href="#soundflower" class="header-anchor">#</a></h3><p>Soundflowerは以下の公式Webページから無料でダウンロードできます。 <a href="https://code.google.com/p/soundflower/" target="_blank" rel="noopener">https://code.google.com/p/soundflower/</a> &lt;2016/8/6追記&gt; El Capitanでは2.0b1以降でないと動かないようです。こちらからダウンロードしましょう。 <a href="https://github.com/mattingalls/Soundflower/releases" target="_blank" rel="noopener">https://github.com/mattingalls/Soundflower/releases</a> Soundflower はオーディオのドライバとしてインストールされるので、 インストール後、音声の出力先を ”内蔵スピーカー” から切り替えることで動きます。 音声の出力先を簡単に切り替えるには画面右上のスピーカーのアイコンを option キーを押しながらクリックします。 <a href="/images/2014/11/9e78d1c00645387a937f14ce86da2f34.jpg"><img src="/images/2014/11/9e78d1c00645387a937f14ce86da2f34-300x241.jpg" alt="スクリーンショット_2014_11_18_0_05"><span class="image-caption">スクリーンショット_2014_11_18_0_05</span></a></p>
+<h3><span id="lu-yin-fang-fa">録音方法</span><a href="#lu-yin-fang-fa" class="header-anchor">#</a></h3><p>QuickTime Player を起動して、「ファイル」→「新規オーディオ収録」を選択します。 あとはソースを Soundflower に切り替えて録音を開始すればOKです。 <a href="/images/2014/11/e80e4f87ee8d1d674e18667f8d79eee7.jpg"><img src="/images/2014/11/e80e4f87ee8d1d674e18667f8d79eee7-300x237.jpg" alt="オーディオ収録"><span class="image-caption">オーディオ収録</span></a> Soundflower を仲介することで下記のように出来る訳ですね。 「録音した音を出すアプリ」→「Soundflower」→「QuickTime Player」 なお、今回 QuickTime Player での録音方法を紹介しましたが、これ以外にも Garageband や Logic などでも可能です。 こま</p>
 
       
     </div>
@@ -186,8 +187,8 @@ ga('send', 'pageview');
       この記事が気に入ったら友達にシェアしよう
     
 <ul class="shareList">
-  <li class="shareList__item"><a class="shareList__link icon-twitter" href="https://twitter.com/intent/tweet?text=Macで鳴っている音をそのまま録音する方法 https://tomoraku-life.com/mac-soundflower/index.html" onclick="window.open(encodeURI(decodeURI(this.href)),'twwindow','width=550, height=450, personalbar=0, toolbar=0, scrollbars=1'); return false;" target="_blank" title="Twitter"></a></li>
-  <li class="shareList__item"><a class="shareList__link icon-facebook" href="http://www.facebook.com/share.php?u=https://tomoraku-life.com/mac-soundflower/index.html" onclick="window.open(encodeURI(decodeURI(this.href)),'fbwindow','width=550, height=450, personalbar=0, toolbar=0, scrollbars=1'); return false;" target="_blank" title="Facebook"></a></li>
+  <li class="shareList__item"><a class="shareList__link icon-twitter" href="https://twitter.com/intent/tweet?text=Macで鳴っている音をそのまま録音する方法 https://tomoraku-life.com/mac-soundflower/index.html" onClick="window.open(encodeURI(decodeURI(this.href)),'twwindow','width=550, height=450, personalbar=0, toolbar=0, scrollbars=1'); return false;" target="_blank" title="Twitter"></a></li>
+  <li class="shareList__item"><a class="shareList__link icon-facebook" href="http://www.facebook.com/share.php?u=https://tomoraku-life.com/mac-soundflower/index.html" onClick="window.open(encodeURI(decodeURI(this.href)),'fbwindow','width=550, height=450, personalbar=0, toolbar=0, scrollbars=1'); return false;" target="_blank" title="Facebook"></a></li>
   <li class="shareList__item"><a class="shareList__link icon-hatebu" href="http://b.hatena.ne.jp/add?mode=confirm&url=https://tomoraku-life.com/mac-soundflower/index.html&title=Macで鳴っている音をそのまま録音する方法" target="_blank" title="はてなブックマーク"></a></li>
   <li class="shareList__item"><a class="shareList__link icon-line" href="http://line.me/R/msg/text?Macで鳴っている音をそのまま録音する方法 https://tomoraku-life.com/mac-soundflower/index.html" target="_blank" title="LINE"></a></li>
 </ul>
@@ -216,7 +217,7 @@ ga('send', 'pageview');
   <h3 class="widget-title">自己紹介</h3>
   <div class="widget">
     <div style="text-align: center;">
-      <img src="/images/avatar.png" width="100" height="100">
+      <img src="/images/avatar.png" width="100" height="100" />
       <p>コマ</p>
     </div>
     <p>
@@ -225,7 +226,8 @@ ga('send', 'pageview');
       現在、日本の子育て事情が改善することを願って情報発信をしています。
     </p>
     <div style="text-align: center;">
-      <a href="https://twitter.com/tomoraku_life?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @tomoraku_life</a>
+      <a href="https://twitter.com/tomoraku_life?ref_src=twsrc%5Etfw" class="twitter-follow-button"
+        data-show-count="false">Follow @tomoraku_life</a>
       <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
     </div>
   </div>
@@ -235,7 +237,7 @@ ga('send', 'pageview');
   <div class="widget-wrap">
     <h3 class="widget-title">カテゴリ</h3>
     <div class="widget">
-      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/Mac-iPhone/">Mac/iPhone</a><span class="category-list-count">12</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/お出かけスポット/">お出かけスポット</a><span class="category-list-count">3</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/お金のこと/">お金のこと</a><span class="category-list-count">11</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/らくらく子育て/">らくらく子育て</a><span class="category-list-count">5</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/ブログについて/">ブログについて</a><span class="category-list-count">2</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/プログラミング/">プログラミング</a><span class="category-list-count">3</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/マイホーム/">マイホーム</a><span class="category-list-count">12</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/妊活／不妊治療/">妊活／不妊治療</a><span class="category-list-count">4</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/投資／ふるさと納税/">投資／ふるさと納税</a><span class="category-list-count">9</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/日記/">日記</a><span class="category-list-count">14</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/時短ワザ/">時短ワザ</a><span class="category-list-count">16</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/生活の知恵/">生活の知恵</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/男性の育休ガイド/">男性の育休ガイド</a><span class="category-list-count">6</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/節約ワザ/">節約ワザ</a><span class="category-list-count">13</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/読書ログ/">読書ログ</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/音楽/">音楽</a><span class="category-list-count">5</span></li></ul>
+      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/Mac-iPhone/">Mac/iPhone</a><span class="category-list-count">12</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/お出かけスポット/">お出かけスポット</a><span class="category-list-count">3</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/お金のこと/">お金のこと</a><span class="category-list-count">11</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/らくらく子育て/">らくらく子育て</a><span class="category-list-count">5</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/ブログについて/">ブログについて</a><span class="category-list-count">2</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/プログラミング/">プログラミング</a><span class="category-list-count">3</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/マイホーム/">マイホーム</a><span class="category-list-count">12</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/妊活／不妊治療/">妊活／不妊治療</a><span class="category-list-count">4</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/投資／ふるさと納税/">投資／ふるさと納税</a><span class="category-list-count">9</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/日記/">日記</a><span class="category-list-count">14</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/時短ワザ/">時短ワザ</a><span class="category-list-count">16</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/生活の知恵/">生活の知恵</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/男性の育休ガイド/">男性の育休ガイド</a><span class="category-list-count">7</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/節約ワザ/">節約ワザ</a><span class="category-list-count">13</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/読書ログ/">読書ログ</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/音楽/">音楽</a><span class="category-list-count">5</span></li></ul>
     </div>
   </div>
 
