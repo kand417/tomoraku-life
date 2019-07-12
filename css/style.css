@@ -110,13 +110,6 @@ button::-moz-focus-inner {
   border: 0;
   padding: 0;
 }
-@font-face {
-  font-family: FontAwesome;
-  font-style: normal;
-  font-weight: normal;
-  src: url("fonts/fontawesome-webfont.eot?v=#4.0.3");
-  src: url("fonts/fontawesome-webfont.eot?#iefix&v=#4.0.3") format("embedded-opentype"), url("fonts/fontawesome-webfont.woff?v=#4.0.3") format("woff"), url("fonts/fontawesome-webfont.ttf?v=#4.0.3") format("truetype"), url("fonts/fontawesome-webfont.svg#fontawesomeregular?v=#4.0.3") format("svg");
-}
 html,
 body,
 #container {
@@ -322,7 +315,6 @@ body {
   position: absolute;
   left: 0;
   right: 0;
-  height: 40px;
 }
 #header:before {
   top: 0;
@@ -347,7 +339,7 @@ body {
   width: 100%;
   height: 40px;
   overflow: hidden;
-  background: #4484ce;
+  background: #17aeab;
 }
 @media screen and (max-width: 479px) {
   #header-inner {
@@ -428,7 +420,7 @@ body {
   opacity: 1;
 }
 .nav-icon {
-  font-family: FontAwesome;
+  font-family: "Font Awesome 5 Free";
   text-align: center;
   font-size: 15px;
   width: 15px;
@@ -473,7 +465,9 @@ body {
   height: 40px;
 }
 #main-nav-toggle:before {
+  font-family: "Font Awesome 5 Free";
   content: "\f0c9";
+  font-weight: 900;
   font-size: 1.6em;
   color: #666;
   height: 40px;
@@ -500,6 +494,8 @@ body {
   line-height: 40px;
 }
 #nav-rss-link:before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
   content: "\f09e";
 }
 #nav-search-btn {
@@ -507,11 +503,13 @@ body {
   line-height: 40px;
 }
 #nav-search-btn:before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
   content: "\f002";
 }
 #search-form-wrap {
   position: absolute;
-  top: 15px;
+  top: 5px;
   width: 150px;
   height: 30px;
   right: -150px;
@@ -530,6 +528,10 @@ body {
     width: 100%;
     right: -100%;
   }
+}
+#search-form-wrap .search-form-submit {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
 }
 .search-form {
   position: absolute;
@@ -559,7 +561,7 @@ body {
   top: 50%;
   right: 10px;
   margin-top: -7px;
-  font: 13px FontAwesome;
+  font: 13px "Font Awesome 5 Free";
   border: none;
   background: none;
   color: #bbb;
@@ -570,7 +572,7 @@ body {
   color: #777;
 }
 .article {
-  margin: 50px 0;
+  margin: 15px 0;
 }
 .article-inner {
   overflow: hidden;
@@ -593,12 +595,12 @@ body {
   text-align: right;
 }
 .article-date time.published:before {
-  font-family: FontAwesome;
+  font-family: "Font Awesome 5 Free";
   content: "\f044";
   padding-right: 5px;
 }
 .article-date time.modified:before {
-  font-family: FontAwesome;
+  font-family: "Font Awesome 5 Free";
   content: "\f021";
   padding-right: 5px;
 }
@@ -813,7 +815,7 @@ a.article-title:hover {
 }
 .article-comment-link:before {
   content: "\f075";
-  font-family: FontAwesome;
+  font-family: "Font Awesome 5 Free";
   padding-right: 8px;
 }
 .article-share-link {
@@ -823,7 +825,7 @@ a.article-title:hover {
 }
 .article-share-link:before {
   content: "\f064";
-  font-family: FontAwesome;
+  font-family: "Font Awesome 5 Free";
   padding-right: 6px;
 }
 #article-nav {
@@ -839,7 +841,7 @@ a.article-title:hover {
 }
 @media screen and (min-width: 768px) {
   #article-nav {
-    margin: 50px 0;
+    margin: 15px 0;
   }
   #article-nav:before {
     width: 8px;
@@ -863,7 +865,7 @@ a.article-title:hover {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  margin-top: 50px;
+  margin-top: 15px;
   text-align: center;
   display: block;
 }
@@ -962,7 +964,7 @@ a.article-title:hover {
 .article-share-pinterest:before,
 .article-share-google:before {
   font-size: 20px;
-  font-family: FontAwesome;
+  font-family: "Font Awesome 5 Free";
   width: 20px;
   height: 20px;
   position: absolute;
@@ -1122,7 +1124,7 @@ blockquote:before {
   left: 15px;
   vertical-align: middle;
   content: "\f10d";
-  font-family: FontAwesome;
+  font-family: "Font Awesome 5 Free";
   color: #cfcfcf;
   font-size: 20px;
   line-height: 1;
@@ -1149,10 +1151,10 @@ blockquote cite {
 .article-entry h2 {
   font-size: 18px;
   margin-top: 40px;
-  padding: 0.5em; /*文字周りの余白*/
-  color: #494949; /*文字色*/
-  background: #fff; /*背景色*/
-  border-left: solid 5px #5ab9ff; /*左線（実線 太さ 色）*/
+  padding: 0.5em;
+  color: #494949;
+  background: #fff;
+  border-left: solid 5px #17aeab;
 }
 .article-entry h2 .header-anchor {
   display: none;
@@ -1160,20 +1162,20 @@ blockquote cite {
 .article-entry h3 {
   font-size: 18px;
   position: relative;
-  padding-left: 1.2em; /*アイコン分のスペース*/
+  padding-left: 1.4em;
   line-height: 1.4;
 }
 .article-entry h3 .header-anchor {
   display: none;
 }
 .article-entry h3:before {
-  font-family: FontAwesome;
-  content: "\f138"; /*アイコンのユニコード*/
-  position: absolute; /*絶対位置*/
-  font-size: 1em; /*サイズ*/
-  left: 0; /*アイコンの位置*/
-  top: 0; /*アイコンの位置*/
-  color: #5ab9ff; /*アイコン色*/
+  font-family: "Font Awesome 5 Free";
+  content: "\f138";
+  position: absolute;
+  font-size: 1em;
+  left: 0;
+  top: 0;
+  color: #17aeab;
 }
 .article-entry strong {
   background: -webkit-linear-gradient(transparent 75%, #ffdc00 75%);
@@ -1248,7 +1250,7 @@ blockquote cite {
   padding: 17px 13px;
   border-radius: 12px;
   background: #fff;
-  border: solid 3px #5ab9ff;
+  border: solid 3px #17aeab;
 }
 .says:before {
   content: "";
@@ -1267,7 +1269,7 @@ blockquote cite {
   left: -30px;
   margin-top: -14px;
   border: 14px solid transparent;
-  border-right: 14px solid #5ab9ff;
+  border-right: 14px solid #17aeab;
   z-index: 1;
 }
 .says p {
@@ -1489,12 +1491,10 @@ blockquote cite {
 }
 .breadcrumb li {
   display: inline;
-/*横に並ぶように*/
   list-style: none;
-  font-weight: bold; /*太字*/
+  font-weight: bold;
 }
 .breadcrumb li:after {
-/* >を表示*/
   content: '>';
   padding: 0 3px;
   color: #555;
@@ -1507,12 +1507,10 @@ blockquote cite {
   color: #808080;
 }
 .breadcrumb li:first-child a:before {
-/*家アイコン*/
-  font-family: FontAwesome;
-  content: '\f015';
-  font-weight: normal;
+  font-family: "Font Awesome 5 Free";
+  content: "\f015";
   font-size: 1.1em;
-  color: #2e7fea;
+  color: #17aeab;
 }
 .breadcrumb li a:hover {
   text-decoration: underline;
@@ -1530,20 +1528,20 @@ blockquote cite {
   color: #258fb8;
 }
 .archives-wrap {
-  margin: 50px 0;
+  margin: 15px 0;
 }
 .archives-title {
   color: #999;
   font-weight: bold;
   font-size: 1.1em;
   background: #fff;
-  border-bottom: 3px solid #4484ce;
+  border-bottom: 3px solid #17aeab;
   text-align: center;
   padding: 5px;
   margin: 20px 20px 20px 20px;
 }
 .archives-title:before {
-  font-family: FontAwesome;
+  font-family: "Font Awesome 5 Free";
   content: "\f044";
   padding-right: 5px;
 }
@@ -1654,7 +1652,7 @@ height:40px {
   }
 }
 .archive-article-date time:before {
-  font-family: FontAwesome;
+  font-family: "Font Awesome 5 Free";
   content: "\f017";
   padding-right: 5px;
 }
@@ -1665,7 +1663,7 @@ height:40px {
   text-decoration: none;
   font-size: 0.85em;
   font-weight: bold;
-  background: #f19f4d;
+  background: #e85154;
   padding: 5px 10px;
   border-radius: 10px;
   line-height: 1em;
@@ -1679,7 +1677,7 @@ height:40px {
   }
 }
 #page-nav {
-  margin: 50px auto;
+  margin: 15px auto;
   background: #fff;
   -webkit-box-shadow: 1px 2px 3px #ddd;
   box-shadow: 1px 2px 3px #ddd;
@@ -1970,12 +1968,12 @@ pre .javascript .function {
   }
 }
 .widget-wrap {
-  margin: 50px 0;
+  margin: 15px 0;
 }
 .widget-title {
   padding: 0.75em 0.75em;
   margin: 0;
-  background-color: #4484ce;
+  background-color: #17aeab;
 }
 .widget {
   color: #777;
@@ -2010,7 +2008,7 @@ pre .javascript .function {
   list-style-type: none !important;
 }
 .widget ul li:before {
-  font-family: "FontAwesome";
+  font-family: "Font Awesome 5 Free";
   content: "\f075"; /*アイコンの種類*/
   position: absolute;
   left: 0.2em;
