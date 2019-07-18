@@ -693,12 +693,12 @@ a.article-title:hover {
 }
 @media screen and (min-width: 768px) {
   .article-entry img.eyecatch {
-    height: 350px;
+    height: 380px;
   }
 }
 @media screen and (max-width: 479px) {
   .article-entry img.eyecatch {
-    height: 150px;
+    height: 180px;
   }
 }
 .article-entry iframe {
@@ -1178,10 +1178,10 @@ blockquote cite {
   color: #17aeab;
 }
 .article-entry strong {
-  background: -webkit-linear-gradient(transparent 75%, #ffdc00 75%);
-  background: -moz-linear-gradient(transparent 75%, #ffdc00 75%);
-  background: -ms-linear-gradient(transparent 75%, #ffdc00 75%);
-  background: linear-gradient(transparent 75%, #ffdc00 75%);
+  background: -webkit-linear-gradient(transparent 90%, #e85154 90%);
+  background: -moz-linear-gradient(transparent 90%, #e85154 90%);
+  background: -ms-linear-gradient(transparent 90%, #e85154 90%);
+  background: linear-gradient(transparent 90%, #e85154 90%);
 }
 .toc {
   background: #f9f9f9 none repeat scroll 0 0;
@@ -1606,8 +1606,8 @@ height:40px {
   margin-left: auto;
   margin-top: 10px;
   margin-bottom: 10px;
-  height: 220px;
-  width: 220px;
+  height: 270px;
+  width: 240px;
 }
 @media screen and (max-width: 479px) {
   .archive-article-inner {
@@ -1642,7 +1642,6 @@ height:40px {
   text-decoration: none;
   font-size: 0.85em;
   line-height: 1em;
-  margin-bottom: 0.5em;
   display: block;
   font-feature-settings: "palt" 1;
 }
@@ -1737,13 +1736,13 @@ height:40px {
 .eyecatch img {
   width: 100%;
   max-width: 100%;
-  height: 100px;
+  height: 150px;
   object-fit: cover;
   display: block;
 }
 @media screen and (max-width: 479px) {
   .eyecatch img {
-    height: 120px;
+    height: 170px;
   }
 }
 #footer {
