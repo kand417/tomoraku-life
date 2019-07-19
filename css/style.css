@@ -681,6 +681,7 @@ a.article-title:hover {
 .article-entry video {
   max-width: 80%;
   height: auto;
+  max-height: 250px;
   display: block;
   margin: auto;
   margin-top: 10px;
@@ -694,11 +695,13 @@ a.article-title:hover {
 @media screen and (min-width: 768px) {
   .article-entry img.eyecatch {
     height: 380px;
+    max-height: 380px;
   }
 }
 @media screen and (max-width: 479px) {
   .article-entry img.eyecatch {
     height: 180px;
+    max-height: 180px;
   }
 }
 .article-entry iframe {

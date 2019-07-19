@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   <link href="http://pubsubhubbub.appspot.com" rel="hub"/>
   <link href="https://tomoraku-life.com/"/>
-  <updated>2019-07-15T15:00:00.000Z</updated>
+  <updated>2019-07-18T15:00:00.000Z</updated>
   <id>https://tomoraku-life.com/</id>
   
   <author>
@@ -15,6 +15,36 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>IIJ(インターネットイニシアティブ)の株式を追加購入。将来の成長に期待大。</title>
+    <link href="https://tomoraku-life.com/invest-iij/"/>
+    <id>https://tomoraku-life.com/invest-iij/</id>
+    <published>2019-07-18T15:00:00.000Z</published>
+    <updated>2019-07-18T15:00:00.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>IIJ（インターネットイニシタティブ）は2019/7/18に日本初のeSIMサービスを開始しましたね。私はこのニュースをみてIIJ株を100株から300株に買い増しました。</p><!-- 国内でiPhoneのeSIMが活用できる「IIJmio eSIMプラン（ベータ版）」 --><iframe class="hatenablogcard" style="width: 100%; height: 155px; max-width: 680px;" src="https://hatenablog-parts.com/embed?url=https://k-tai.watch.impress.co.jp/docs/column/minna/1195927.html" width="300" height="150" frameborder="0" scrolling="no"></iframe><p>私は一部上場企業のITベンダーに10年以上勤めておりIT業界のトレンドは常に情報収集しています。こんな私が、IIJが「<strong>これから流行るであろう技術トレンドを押さえまくっている</strong>」と断言します。</p><a id="more"></a><div class="toc"><!-- toc --><ul><li><a href="#somosomoiijtutedonnahui-she">そもそもIIJってどんな会社？</a></li><li><a href="#iijhaji-shu-torendowoya-saemakututeiru">IIJは技術トレンドを押さえまくっている</a><ul><li><a href="#kuraudoji-pan">クラウド基盤</a></li><li><a href="#iot">IoT</a></li><li><a href="#sekiyuritei">セキュリティ</a></li><li><a href="#jia-xiang-tong-huo-huintetuku">仮想通貨・フィンテック</a></li><li><a href="#hurumvnoesim">フルMVNO・eSIM</a></li></ul></li><li><a href="#iijnoqiang-mihawakatutakedo-ye-ji-hadounano">IIJの強みはわかったけど、業績はどうなの？</a><ul><li><a href="#ye-ji-yapei-dang-ha">業績や配当は？</a></li><li><a href="#qiang-mihawakatutakedo-ruo-dian-ha">強みはわかったけど、弱点は？</a></li></ul></li><li><a href="#matome">まとめ</a></li></ul><!-- tocstop --></div><h2><span id="somosomoiijtutedonnahui-she">そもそもIIJってどんな会社？</span><a href="#somosomoiijtutedonnahui-she" class="header-anchor">#</a></h2><p>IIJはいわゆるIT企業ですが、そのなかでもネットワーク接続サービス、および、システム構築を行なっている会社です。</p><blockquote><p>事業内容：インターネット接続サービス、WANサービスおよびネットワーク関連サービスの提供、ネットワーク・システムの構築・運用保守、通信機器の開発及び販売<br><cite><a href="https://www.iij.ad.jp/company/about/outline/" target="_blank" rel="noopener">会社概要 | IIJ</a></cite></p></blockquote><p>個人向けの商品としては<strong>格安SIMのIIJmio</strong>がもっとも認知されていると思います。しかし、IIJは法人向け事業のウェートの方が大きい会社です。</p><h2><span id="iijhaji-shu-torendowoya-saemakututeiru">IIJは技術トレンドを押さえまくっている</span><a href="#iijhaji-shu-torendowoya-saemakututeiru" class="header-anchor">#</a></h2><p>具体的に私がIIJが時代を先取りしていると考えているポイントは以下の5つです。</p><ul><li>クラウド基盤</li><li>IoT</li><li>セキュリティ</li><li>仮想通貨・フィンテック</li><li>フルMVNO・eSIM</li></ul><p>それぞれ手短に説明していきましょう。</p><h3><span id="kuraudoji-pan">クラウド基盤</span><a href="#kuraudoji-pan" class="header-anchor">#</a></h3><p>現在、海外で爆発的に利用が広がっているコンテナ（もしくはKubernetes）という新しいサーバ技術があります。</p><p>日本ではまだゲーム業界くらいにしか普及していませんが、コンテナ技術はビジネスにおける費用対効果や俊敏性へのメリットが大きいため、日本でも今後普及するのは間違いがないです。そんな<strong>コンテナ技術を詰め込んだデータセンターをIIJは虎視眈々と準備しています</strong>。</p><!-- IIJのコンテナ型データセンター --><iframe class="hatenablogcard" style="width: 100%; height: 155px; max-width: 680px;" src="https://hatenablog-parts.com/embed?url=https://www.iij.ad.jp/DC/index.html" width="300" height="150" frameborder="0" scrolling="no"></iframe><p>さらに、業界には「AmazonのAWS」「GoogleのGCP」「MicrosoftのAzure」といった3大クラウドも存在します。こちらについても手を抜くことなく正式なパートナーとなる動きを見せています。</p><!-- IIJ、マネージドサービス事業者向けの「Microsoft Azure Networking MSP」認定を取得 --><iframe class="hatenablogcard" style="width: 100%; height: 155px; max-width: 680px;" src="https://hatenablog-parts.com/embed?url=https://cloud.watch.impress.co.jp/docs/news/1196256.html" width="300" height="150" frameborder="0" scrolling="no"></iframe><p>日本政府は2018年6月にクラウド利用基本方針「クラウド・バイ・デフォルト原則」というのを発表しました。公共事業を皮切りに<strong>これまでクラウド利用をしていなかった分野におけるクラウド利用が広がり、今後、需要は間違いなく広がります</strong>。</p><p>さらに、日本企業の場合、Amazonなどの海外ベンダーのクラウドを利用するのを嫌うこともあります。IIJはこれに先回りして手を打ってると言えます。クラウドサービスの利用動向が国内・海外どちらに転がったとしてもIIJは万全でしょう。</p><h3><span id="iot">IoT</span><a href="#iot" class="header-anchor">#</a></h3><p>モノとインターネットを繋げるIoTという潮流があります。ここで、IoTは技術的にまだ黎明期であり、IoTのシステム構築には必ず専門知識が必要となります。</p><p><strong>IIJはIoT機器向けのネットワーク接続サービスとシステム構築を同時に行える日本唯一の企業</strong>といっても過言ではありません。さらに個人向けにもIoTサービスを提供しています。個人の前衛的な技術者が利用することでさらにIIJのIoTサービスに磨きがかかると思います。</p><!-- IIJmio IoTサービス --><iframe class="hatenablogcard" style="width: 100%; height: 155px; max-width: 680px;" src="https://hatenablog-parts.com/embed?url=https://www.iijmio.jp/mit/" width="300" height="150" frameborder="0" scrolling="no"></iframe><h3><span id="sekiyuritei">セキュリティ</span><a href="#sekiyuritei" class="header-anchor">#</a></h3><p>セキュリティは奥が深く一朝一夕でできる分野ではありません。そこでIIJのような専門知識を有する業者が提供するセキュリティサービスを利用するのが合理的です。</p><p>先日もセブンPayでのセキュリティ事故などがありましたね。<strong>物事のデジタル化が進むのに伴いセキュリティに関する需要は確実に増えています</strong>。</p><p>これに対し、IIJはこれから到来するクラウド型システム向けのセキュリティサービスのラインナップをどんどん増やしています。</p><!-- IIJ統合セキュリティ運用ソリューション --><iframe class="hatenablogcard" style="width: 100%; height: 155px; max-width: 680px;" src="https://hatenablog-parts.com/embed?url=https://www.iij.ad.jp/biz/sec-ope/" width="300" height="150" frameborder="0" scrolling="no"></iframe><h3><span id="jia-xiang-tong-huo-huintetuku">仮想通貨・フィンテック</span><a href="#jia-xiang-tong-huo-huintetuku" class="header-anchor">#</a></h3><p>ブロックチェーンという革命的な技術により、「デジタル資産」という形式の資産が今後増えていくのは間違いないです。ビットコインや最近話題のLibra（リブラ）はまだまだ序章です。</p><p>「デジタル資産」の種類がもっと増えた世の中を想像してみてください。すると、<strong>人々はお金を銀行に預けているように「デジタル資産」を安全に保管したい</strong>という需要が自然と発生するのが容易に想像できます。</p><p>そんな中でIIJはすでに動いており、IIJ傘下ディーカレットが2019年4月に<strong>デジタル通貨のメインバンク DeCurret</strong>のサービスを開始しました。IIJ、先見の明がありすぎです。</p><!-- デジタル通貨のメインバンク DeCurret --><iframe class="hatenablogcard" style="width: 100%; height: 155px; max-width: 680px;" src="https://hatenablog-parts.com/embed?url=https://www.decurret.com/" width="300" height="150" frameborder="0" scrolling="no"></iframe><h3><span id="hurumvnoesim">フルMVNO・eSIM</span><a href="#hurumvnoesim" class="header-anchor">#</a></h3><p>最後に、極め付けはこれ。この記事の冒頭でも2019年7月に開始したeSIMサービスです。</p><p>eSIMを簡単に説明すると、これまではスマホのネット回線契約にSIMカードのような物理的なメディアが必要でしたが、これが不要になります。発行されたQRコードを読み取るだけでeSIMに接続のための情報が書き込まれて、すぐにその場で回線を利用することが可能になります。<strong>従来よりも圧倒的に便利なのでこれから絶対に流行ります</strong>。</p><p>実はこれ、<strong>日本ではIIJしか提供できないサービス</strong>といえます。</p><p>まず、eSIMを発行するにはフルMVNOである必要があります。mineoをはじめ他の格安SIMを提供している多くの会社がありますが、各種格安SIMの会社のうち<strong>フルMVNOであるのはIIJだけです</strong>。</p><p>では、ドコモやauやソフトバンクはeSIMを発行しないのか？これは<strong>すぐにはしないのではと考えられます</strong>。理由はeSIMの発行は店舗を必要としないので、店舗をもつ会社はこれと競合してしまい売り上げが減ってしまうからです。これは都合が悪いため、3大キャリアはある程度eSIMが市場に認知されてからしか手を打ってこないと考えられます。</p><!-- 国内でiPhoneのeSIMが活用できる「IIJmio eSIMプラン（ベータ版）」 --><iframe class="hatenablogcard" style="width: 100%; height: 155px; max-width: 680px;" src="https://hatenablog-parts.com/embed?url=https://k-tai.watch.impress.co.jp/docs/column/minna/1195927.html" width="300" height="150" frameborder="0" scrolling="no"></iframe><h2><span id="iijnoqiang-mihawakatutakedo-ye-ji-hadounano">IIJの強みはわかったけど、業績はどうなの？</span><a href="#iijnoqiang-mihawakatutakedo-ye-ji-hadounano" class="header-anchor">#</a></h2><h3><span id="ye-ji-yapei-dang-ha">業績や配当は？</span><a href="#ye-ji-yapei-dang-ha" class="header-anchor">#</a></h3><p>少なくとも最近の10年間は<strong>着実に売上高を伸ばしています</strong>。これに対して配当は、ここ3年間は据え置きとなっています。また、利回り1.32%とそこまで高くはありません。</p><p><img src="1.jpg" alt="Yahoo!ファイナンスより(2019/7/19時点)"><span class="image-caption">Yahoo!ファイナンスより(2019/7/19時点)</span></p><p>これはIIJが虎視眈々と準備のための投資をしているためと私は考えています。</p><p>IIJは「ストック収益モデル」を重視しており、これの割合が非常に大きく、かつ年々成長しています。また、利益をキチンと自社に蓄えており、自己資本比率が45.2%であること（2019/7/19時点）からかなり安定した経営をしています。</p><p><img src="2.jpg" alt="IIJの株主通信(2019年3月期)より"><span class="image-caption">IIJの株主通信(2019年3月期)より</span></p><p>IIJはこの「ストック収益モデル」の経営を軸としてさらに拡大するために、この記事の前半で述べたような強みを強化している最中です。</p><h3><span id="qiang-mihawakatutakedo-ruo-dian-ha">強みはわかったけど、弱点は？</span><a href="#qiang-mihawakatutakedo-ruo-dian-ha" class="header-anchor">#</a></h3><p>ここまで、IIJはかなり安定した経営をしていることと、IT業界の将来を見据えた投資をしていることを説明しました。</p><p>弱点らしい弱点は見当たらないですが、強いていてば、<strong>IIJが今投資していることがいつ花開くかがわからないこと</strong>が挙げられるのではないかと思います。</p><p>ブロックチェーンやコンテナなどの先端技術を使用したシステム構築や、IoTの市場が今後伸びるのは確実ですが、日本において「いつ、どれくらいか」と言われると少々不透明なところがあります。</p><p>そのため、IIJの株式を購入してもこれらの市場が大きくなるまで気長に待つことが求められます。</p><h2><span id="matome">まとめ</span><a href="#matome" class="header-anchor">#</a></h2><p>IIJは自らの強みを理解して戦略に落とし込んでおり、本当に賢いと思います。また経営の安定性も抜群ですので安心して株式を購入できます。</p><p>また、私もITエンジニアとしてIIJが取り組んでいる技術やサービスが大好きです。今後の成長を期待して、株をガチホして待ってます！</p><div class="talk"><div class="faceicon"><img src="/images/avatar.png"><div class="name">コマ</div></div><div class="chatting"><div class="says"><p>もちろん、私のiPhoneの回線はIIJmioを使ってます。eSIMも近々試してみたい！</p></div></div></div>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;IIJ（インターネットイニシタティブ）は2019/7/18に日本初のeSIMサービスを開始しましたね。私はこのニュースをみてIIJ株を100株から300株に買い増しました。&lt;/p&gt;
+&lt;!-- 国内でiPhoneのeSIMが活用できる「IIJmio eSIMプラン（ベータ版）」 --&gt;
+&lt;iframe class=&quot;hatenablogcard&quot; style=&quot;width: 100%; height: 155px; max-width: 680px;&quot; src=&quot;https://hatenablog-parts.com/embed?url=https://k-tai.watch.impress.co.jp/docs/column/minna/1195927.html&quot; width=&quot;300&quot; height=&quot;150&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;私は一部上場企業のITベンダーに10年以上勤めておりIT業界のトレンドは常に情報収集しています。こんな私が、IIJが「&lt;strong&gt;これから流行るであろう技術トレンドを押さえまくっている&lt;/strong&gt;」と断言します。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="資産運用" scheme="https://tomoraku-life.com/categories/%E8%B3%87%E7%94%A3%E9%81%8B%E7%94%A8/"/>
+    
+    
+      <category term="投資" scheme="https://tomoraku-life.com/tags/%E6%8A%95%E8%B3%87/"/>
+    
+      <category term="株式" scheme="https://tomoraku-life.com/tags/%E6%A0%AA%E5%BC%8F/"/>
+    
+      <category term="IIJ" scheme="https://tomoraku-life.com/tags/IIJ/"/>
+    
+  </entry>
   
   <entry>
     <title>実録、育休を取得した男性サラリーマンの一日。自由時間は意外と少ないよという話。</title>
@@ -39,6 +69,8 @@
     
       <category term="育休パパの経験談" scheme="https://tomoraku-life.com/categories/%E8%82%B2%E4%BC%91%E3%83%91%E3%83%91%E3%81%AE%E7%B5%8C%E9%A8%93%E8%AB%87/"/>
     
+    
+      <category term="男性" scheme="https://tomoraku-life.com/tags/%E7%94%B7%E6%80%A7/"/>
     
       <category term="育休" scheme="https://tomoraku-life.com/tags/%E8%82%B2%E4%BC%91/"/>
     
@@ -134,6 +166,8 @@
     
       <category term="育休パパの経験談" scheme="https://tomoraku-life.com/categories/%E8%82%B2%E4%BC%91%E3%83%91%E3%83%91%E3%81%AE%E7%B5%8C%E9%A8%93%E8%AB%87/"/>
     
+    
+      <category term="男性" scheme="https://tomoraku-life.com/tags/%E7%94%B7%E6%80%A7/"/>
     
       <category term="育休" scheme="https://tomoraku-life.com/tags/%E8%82%B2%E4%BC%91/"/>
     
@@ -488,26 +522,6 @@
     </summary>
     
       <category term="妊活／不妊治療" scheme="https://tomoraku-life.com/categories/%E5%A6%8A%E6%B4%BB%EF%BC%8F%E4%B8%8D%E5%A6%8A%E6%B2%BB%E7%99%82/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>まだ間に合う！2016年おすすめのふるさと納税先まとめ。家計は大助かり。</title>
-    <link href="https://tomoraku-life.com/post-1776/"/>
-    <id>https://tomoraku-life.com/post-1776/</id>
-    <published>2016-12-07T09:59:20.000Z</published>
-    <updated>2019-07-15T15:00:00.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>こまです。こんばんは。最近、めっきりと寒くなってきましたね。 さてさて気づけば１２月、今年も大詰めです。この時期に重要なのは、、、そう<strong>ふるさと納税</strong>です。 すでにふるさと納税を利用している人は当たり前にご存知かもしれませんが、ふるさと納税は１月〜１２月で一区切りなので、<strong>１２月は追い込みの時期</strong>なのです。 でも「どこに納税すれば、、」と考えるのが面倒になってるそこの方！これから私たち夫婦が今年中に納税したところを紹介するので是非参考にしてみてください！</p><a id="more"></a><div class="toc"><!-- toc --><ul><li><a href="#si-tatiga2016-nian-nina-shui-sitaxian-tooli-nopin">私たちが2016年に納税した先とお礼の品</a><ul><li><a href="#wang-dao-omi">王道　お米</a></li><li><a href="#qian-kasenairi-yong-pin-toiretutopeba-teitusiyupepa">欠かせない日用品　トイレットペーバー、ティッシュペーパー</a></li><li><a href="#basutaoru3mei">バスタオル３枚</a></li><li><a href="#niu-rou">牛肉</a></li><li><a href="#ye-noogong-wain">夜のお供 ワイン</a></li><li><a href="#lu-xing-quan">旅行券</a></li></ul></li><li><a href="#soredemona-shui-xian-nimi-tutachang-he-ha">それでも納税先に迷った場合は？</a></li><li><a href="#matome">まとめ</a></li></ul><!-- tocstop --></div><h2><span id="si-tatiga2016-nian-nina-shui-sitaxian-tooli-nopin">私たちが2016年に納税した先とお礼の品</span><a href="#si-tatiga2016-nian-nina-shui-sitaxian-tooli-nopin" class="header-anchor">#</a></h2><p>共働き夫婦な私たちがどういう考えや方針のもと、納税先を選んでいるのかを最初に話しておきたいと思います。 それは、<strong>消耗品</strong>であり<strong>生活必需品</strong>であることです。これらを選択することで生活費を浮かせることができます。 <strong>この浮いたお金で贅沢をすれば良いです</strong>。 ふるさと納税を考えていると、ついつい贅沢品に目がいきます。しかし、なかなか「これだ！」というのを見つけることができず、結局疲れて「まあいいや、今度にしよ」となり、いつまでたっても納税しないパターン。陥りがちですね。 だったら、「<strong>ふるさと納税は生活費を浮かせる為に使って、その浮いたお金で欲しいものを買えばいい</strong>」と、考えたときふっとラク〜に納税先を決められるようになりました。 なので、これから紹介するのは生活必需品なものが中心です。</p><h3><span id="wang-dao-omi">王道　お米</span><a href="#wang-dao-omi" class="header-anchor">#</a></h3><p><img src="/images/2016/12/IMG_1938_Fotor-300x225.jpg" alt></p><p>我が家では昨年に引き続き、<strong>お米を中心</strong>にいただきました。 1万円の納税でお米10kgの品が多い中、時々<strong>1万円の納税で１５kg</strong>いただける自治体があります。 質より量（笑）な私たちは15kgいただける自治体を中心に納税しています。 山形県三川町ではなんと 2万円の納税でで 30kg いただきました。届いた時は大きなダンボールに５kgの米袋が6個も入っていて圧巻。すべて食べきるのに3ヶ月ほどかかりました（笑） また、山形県 真室川町には<strong>５千円の納税で５kg</strong>のお米をいただきました。5千円からお米をいただけるので最後の調整に良いのではないでしょうか。また、この米はかなり美味しくてまた食べたいと思いました！ こま・ちぃ家の今年のお米はすべてふるさと納税で賄いました。お米のお礼、とても有難いです。</p><h3><span id="qian-kasenairi-yong-pin-toiretutopeba-teitusiyupepa">欠かせない日用品　トイレットペーバー、ティッシュペーパー</span><a href="#qian-kasenairi-yong-pin-toiretutopeba-teitusiyupepa" class="header-anchor">#</a></h3><p><img src="/images/2016/12/IMG_3360_Fotor-300x225.jpg" alt></p><p>岩手県北上市に2万円納税し、トイレットペーパーとティッシュペーパーをいただきました。これも昨年に引き続きになりますが、とっても助かったので今年もリピートしました。 「トイレットロール９６個」、「ティッシュペーパー５０個」がいずれも巨大なダンボール箱に入れられ、送られてきます。 これだけあれば、約１年分の紙をカバーしてくれます。 ティッシュやトイレットペーパーって買い物すると荷物がかさばるのでちょっと大変ですよね。これで、家計も助かり、さらに買い物も楽になりと、<strong>地味にスゴイ</strong>です。</p><h3><span id="basutaoru3mei">バスタオル３枚</span><a href="#basutaoru3mei" class="header-anchor">#</a></h3><p><img src="/images/2016/12/IMG_6821_Fotor-261x300.jpg" alt></p><p>私たち夫婦は結婚して５年目、、お祝いでいただいたバスタオル達もそろそろくたびれてきており、中には穴が開き使い物にならなくなってきたものも出てきました。 そこで、日用品で検索すると、出てきました。バスタオルのお礼！ 大阪府泉佐野市に1万円を納税して泉州こだわりタオル３枚をお礼としていただきました。 使い心地はとてもよいです♪</p><h3><span id="niu-rou">牛肉</span><a href="#niu-rou" class="header-anchor">#</a></h3><p><img src="/images/2016/12/IMG_6812_Fotor-300x225.jpg" alt></p><p>大阪府 泉佐野市に納税することで<strong>1万円でなんと1.5kgもの牛肉</strong>をいただけます。写真のようなパックで0.5kgずつ冷凍パックで届きました。牛肉を0.5kgだとスーパーで購入すると1,000円以上するので大助かりです。小分けになってるのも使いやすいですね。 これだけで、3週間分のお肉をいただけました。高級な牛肉の部類ではなかったですが、とても美味しかったです。 以下は1パック(0.5kg)分での料理です。</p><p><img src="/images/2016/12/IMG_6776_Fotor-300x300.jpg" alt></p><p>週末はすき焼き！</p><p><img src="/images/2016/12/IMG_6811_Fotor-300x225.jpg" alt></p><p>それから、残りは炒めものにして平日のお弁当や夜ごはんのおかずになりました。</p><h3><span id="ye-noogong-wain">夜のお供 ワイン</span><a href="#ye-noogong-wain" class="header-anchor">#</a></h3><p><img src="/images/2016/12/IMG_3162_Fotor-300x225.jpg" alt></p><p>ワインも定番です。お酒も必需品ですよね！？ 非常に選択肢が多くありますが、１万円で２〜3本ものもが多いです。 写真は山梨県 山梨市への1万円の納税でいただいたものです。国産のワインは大好きです。おいしかった！</p><h3><span id="lu-xing-quan">旅行券</span><a href="#lu-xing-quan" class="header-anchor">#</a></h3><p>それから、こちらは生活必需品や消耗品ではないのですが、群馬県 中之条町へ納税して旅行券をいただきました。 格安温泉旅行です！これは別途で記事にしているので是非こちらも読んでみてにしてみてください。</p><iframe class="hatenablogcard" style="width: 100%; height: 155px; max-width: 680px;" src="https://hatenablog-parts.com/embed?url=https://tomoraku-life.com/post-1760/" width="300" height="150" frameborder="0" scrolling="no"></iframe><h2><span id="soredemona-shui-xian-nimi-tutachang-he-ha">それでも納税先に迷った場合は？</span><a href="#soredemona-shui-xian-nimi-tutachang-he-ha" class="header-anchor">#</a></h2><p>色々と紹介させていただきましたが、それでも納税先を決められないって！？ そんなあなたには<strong>ポイント制を採用している自治体</strong>がおすすめです。 とりあえず、１２月中に納税しておけば、来年でもいいからゆっくり選ぶことができますよ♪</p><h2><span id="matome">まとめ</span><a href="#matome" class="header-anchor">#</a></h2><p>いかがでしたか。 ふるさと納税のおかげで我が家は楽しみも増え、家計も大助かりでした。 納税先で迷ったり悩んだりしている方の参考になればと思います。 来年もふるさと納税を活用することが今から楽しみです♪</p>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;こまです。こんばんは。最近、めっきりと寒くなってきましたね。 さてさて気づけば１２月、今年も大詰めです。この時期に重要なのは、、、そう&lt;strong&gt;ふるさと納税&lt;/strong&gt;です。 すでにふるさと納税を利用している人は当たり前にご存知かもしれませんが、ふるさと納税は１月〜１２月で一区切りなので、&lt;strong&gt;１２月は追い込みの時期&lt;/strong&gt;なのです。 でも「どこに納税すれば、、」と考えるのが面倒になってるそこの方！これから私たち夫婦が今年中に納税したところを紹介するので是非参考にしてみてください！&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="ふるさと納税" scheme="https://tomoraku-life.com/categories/%E3%81%B5%E3%82%8B%E3%81%95%E3%81%A8%E7%B4%8D%E7%A8%8E/"/>
     
     
   </entry>
