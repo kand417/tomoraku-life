@@ -309,6 +309,11 @@ body {
   position: relative;
   border-bottom: 1px solid #ddd;
 }
+@media screen and (max-width: 479px) {
+  #header {
+    height: 120px;
+  }
+}
 #header:before,
 #header:after {
   content: "";
@@ -380,6 +385,15 @@ body {
   font-size: 10px;
   line-height: 10px;
   letter-spacing: 2px;
+}
+.logo-image {
+  width: 500px;
+  min-width: 50%;
+}
+@media screen and (max-width: 479px) {
+  .logo-image {
+    width: 90%;
+  }
 }
 #subtitle {
   font-size: 12px;
