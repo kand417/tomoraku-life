@@ -1246,15 +1246,14 @@ blockquote cite {
 .talk .name {
   text-align: center;
   float: left;
-  margin-right: -90px;
-  width: 80px;
+  width: 100%;
   font-size: 0.8em;
 }
 .talk .faceicon img {
   width: 100%;
   height: auto;
+  border: solid 2px #bbb;
   border-radius: 50%;
-  margin-top: 5px;
   margin-bottom: 0px;
 }
 .talk .chatting {
