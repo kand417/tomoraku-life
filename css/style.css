@@ -117,7 +117,7 @@ body,
 }
 body {
   background: #eee;
-  font: 15px -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  font: 16px -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
   -webkit-text-size-adjust: 100%;
 }
 .outer {
@@ -396,8 +396,8 @@ body {
   }
 }
 #subtitle {
-  font-size: 12px;
-  line-height: 12px;
+  font-size: 14px;
+  line-height: 14px;
   letter-spacing: 1px;
 }
 #main-nav {
@@ -436,9 +436,9 @@ body {
 .nav-icon {
   font-family: "Font Awesome 5 Free";
   text-align: center;
-  font-size: 15px;
-  width: 15px;
-  height: 15px;
+  font-size: 16px;
+  width: 16px;
+  height: 16px;
   padding: 0px 15px;
   position: relative;
   cursor: pointer;
@@ -736,7 +736,7 @@ a.article-title:hover {
   padding: 10px 0;
 }
 .article-entry blockquote footer {
-  font-size: 15px;
+  font-size: 16px;
   margin: 1.6em 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
 }
@@ -1531,6 +1531,16 @@ blockquote cite {
 .breadcrumb li a:hover {
   text-decoration: underline;
 }
+.profile {
+  text-align: center;
+}
+.profile img {
+  width: 150px;
+  height: 150px;
+  -webkit-box-shadow: 1px 2px 3px #ddd;
+  box-shadow: 1px 2px 3px #ddd;
+  border-radius: 10px;
+}
 #comments {
   background: #fff;
   -webkit-box-shadow: 0px 0px 0px #ddd;
@@ -1617,12 +1627,12 @@ height:40px {
 }
 .archive-article-inner {
   position: relative;
-  padding: 3px 3px 10px 3px;
+  padding: 0px 0px 0px 0px;
   margin-right: auto;
   margin-left: auto;
   margin-top: 10px;
   margin-bottom: 10px;
-  height: 270px;
+  height: 290px;
   width: 240px;
 }
 @media screen and (max-width: 479px) {
@@ -1648,6 +1658,9 @@ height:40px {
   .archive-article-title {
     font-size: 1.1em;
   }
+}
+.archive-article-header {
+  padding: 0 5px 5px 5px;
 }
 .archive-article-footer {
   margin-top: 1em;
@@ -1755,6 +1768,8 @@ height:40px {
   height: 150px;
   object-fit: cover;
   display: block;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
 }
 @media screen and (max-width: 479px) {
   .eyecatch img {
@@ -1788,7 +1803,7 @@ height:40px {
   border-width: 1px 0;
   overflow: auto;
   color: #ccc;
-  line-height: 24px;
+  line-height: 25.6px;
 }
 .article-entry .highlight .gutter pre,
 .article-entry .gist .gist-file .gist-data .line-numbers {
@@ -1844,7 +1859,7 @@ height:40px {
   padding-right: 20px;
 }
 .article-entry .highlight .line {
-  height: 24px;
+  height: 25.6px;
 }
 .article-entry .highlight .line.marked {
   background: #515151;
