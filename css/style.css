@@ -1210,11 +1210,11 @@ blockquote cite {
   top: 0;
   color: #17aeab;
 }
-.article-entry strong {
-  background: -webkit-linear-gradient(transparent 90%, #e85154 90%);
-  background: -moz-linear-gradient(transparent 90%, #e85154 90%);
-  background: -ms-linear-gradient(transparent 90%, #e85154 90%);
-  background: linear-gradient(transparent 90%, #e85154 90%);
+.article-entry h4 {
+  font-size: 16px;
+}
+.article-entry h4 .header-anchor {
+  display: none;
 }
 .toc {
   background: #f9f9f9 none repeat scroll 0 0;
@@ -1599,12 +1599,12 @@ blockquote cite {
     visibility: visible;
   }
 }
-.fixed .menu-title {
+.menu-title {
   height: 100%;
   width: 80%;
   margin: auto;
 }
-.fixed .menu-title img {
+.menu-title img {
   display: block;
   margin: auto;
   padding: 5px;
