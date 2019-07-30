@@ -707,11 +707,11 @@ a.article-title:hover {
   margin-top: 1.6em;
   margin-bottom: 1.6em;
 }
-.article-entry img,
-.article-entry video {
-  max-width: 80%;
+.article-entry img {
+  max-width: 100%;
   height: auto;
-  max-height: 250px;
+  max-height: 500px;
+  object-fit: cover;
   display: block;
   margin: auto;
   margin-top: 10px;
@@ -733,6 +733,15 @@ a.article-title:hover {
     height: 180px;
     max-height: 180px;
   }
+}
+.article-entry video {
+  max-width: 100%;
+  height: auto;
+  max-height: 500px;
+  display: block;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 .article-entry iframe {
   border: none;
@@ -1147,8 +1156,9 @@ blockquote {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  background: #efefef;
-  color: #555;
+  background-color: rgba(53,53,53,0.05);
+  border: 1px solid #ddd;
+  border-radius: 3px;
 }
 blockquote:before {
   display: inline-block;
@@ -1215,6 +1225,13 @@ blockquote cite {
 }
 .article-entry h4 .header-anchor {
   display: none;
+}
+.article-entry strong {
+  background: -webkit-linear-gradient(transparent 75%, #fff799 75%);
+  background: -moz-linear-gradient(transparent 75%, #fff799 75%);
+  background: -ms-linear-gradient(transparent 75%, #fff799 75%);
+  background: linear-gradient(transparent 75%, #fff799 75%);
+  font-weight: bold;
 }
 .toc {
   background: #f9f9f9 none repeat scroll 0 0;
@@ -1610,6 +1627,27 @@ blockquote cite {
   padding: 5px;
   width: 100%;
   height: auto;
+}
+.bullet1 {
+  margin: 0 20px;
+  background-color: #fffdef;
+  border: 1px solid #ff7c00;
+  border-radius: 3px;
+}
+@media screen and (max-width: 479px) {
+  .bullet1 {
+    margin: 0 10px;
+  }
+}
+.bullet1 ul {
+  list-style: none;
+}
+.bullet1 ul li:before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  color: #ff7c00;
+  content: "\f058";
+  padding-right: 20px;
 }
 #comments {
   background: #fff;
