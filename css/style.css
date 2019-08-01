@@ -1865,14 +1865,14 @@ blockquote cite {
 #page-nav .space {
   color: #ddd;
 }
-.eyecatch {
+div.eyecatch {
   position: relative;
   margin-bottom: 10px;
   width: 100%;
   height: auto;
   padding-top: calc(630 / 1200 * 100%);
 }
-.eyecatch img {
+div.eyecatch img {
   position: absolute;
   top: 0;
   left: 0;
